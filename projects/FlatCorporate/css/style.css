@@ -15,6 +15,7 @@ header{
 }
 header img{margin-top:10px;}
 header nav {
+    width:40%;
     float: right;
     text-transform: uppercase;
     margin-top:11px;
@@ -59,13 +60,13 @@ footer{
 footer article{
     display: inline-block;
 }
+footer .description{
+    width:50%;
+}
 footer article ul{
     float:left;
     padding: 0;
-    margin-left:0;
-    margin-top: 25px;
-    margin-right: 24.91448%;
-    margin-bottom: 0;
+    margin-right: 5%;
 }
 footer article ul li{
     list-style: none;
