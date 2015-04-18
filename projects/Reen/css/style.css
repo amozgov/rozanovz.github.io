@@ -1,4 +1,5 @@
-body{min-width: 767px;}
+
+/*body{min-width: 767px;}*/
 /*TOP HADER WITH SOCIAL*/
 .header-upper{background-color: #f5f7fb;height: 40px;}
 .header-upper .fa{padding: 2.3%;}
@@ -13,6 +14,13 @@ body{min-width: 767px;}
     color:#506a85;
 }
 .navigation .col-md-1 i{margin-top: 35%;color:#506a85;}
+.icon-bar{
+    color:black;
+    background:  #73879c;
+}
+.navbar-toggle{
+    border:1px solid  #73879c;
+}
 /******************************************************************************/
 /*CAROUSEL UPPER*/
 .carousel1-control{display: none;}
@@ -118,6 +126,7 @@ body{min-width: 767px;}
     color:#00bc9c;
     font-weight:bolder;
     padding-top: 6px;
+    font-size:3em;
 }
 .about-content h4{
     font-size:1.625em;
@@ -127,7 +136,7 @@ body{min-width: 767px;}
 .about-content p{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: lighter;
-    font-size:1em; 
+    font-size:0.8em; 
     width:89%;
 }
 /******************************************************************************/
@@ -135,7 +144,7 @@ body{min-width: 767px;}
 .works{
     margin-top: 100px;
     background-color: #f2f5f7;
-    height:1270px;
+    height:1070px;
 }
 .works .works-header{
     margin-top: 100px;
