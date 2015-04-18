@@ -23,11 +23,21 @@
            .item-4 .carousel-caption{bottom:10%}
            .item-5 .carousel-caption{bottom:32%;width:48%;}
            
-           .about-header h2{font-size:1.5em;}
-           .about-header p{font-size:0.8em;}
+           .about-header h2,
+           .works-header h2{font-size:1.5em;}
+           
+           .about-header p,
+           .works-header p{font-size:0.8em;}
            
            .about-content .fa{display: none}
-           .about-content .col-xs-3{
-               width:100%;
-           }
+           .about-content .col-xs-3{width:100%;}
+           .about-content .col-xs-3 h4{font-size:1.2em;}
+           .about-content .col-xs-3 p{font-size:.8em;}
+           
+           .works{height:700px;}
+           .works-header h2{margin-top: 0;}
+           .works-content figcaption h4{font-size:.7em}
+           .works-content figcaption a{font-size:.7em}
+           
+           .carousel2-item img {width:22.6%;}
 }
