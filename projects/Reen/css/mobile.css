@@ -22,7 +22,7 @@
            .item-3 .carousel-caption{bottom:14%;}
            .item-4 .carousel-caption{bottom:10%}
            .item-5 .carousel-caption{bottom:32%;width:48%;}
-           
+           #carousel{display: none;}
            .about-header h2,
            .works-header h2,
            .contact h2{font-size:1.5em;}
@@ -42,4 +42,12 @@
            .works-content figcaption a{font-size:.7em}
            
            .carousel2-item img {width:22.6%;}
+           .contact h2{margin-top: 0;}
+           
+           .big-footer .col-xs-3,
+           .small-footer .col-xs-6{width:100%;}
+           .big-footer{height:70em;}
+           .small-footer{height:5em;}
+           .small-footer .left{text-align: center;}
+           .small-footer .right{text-align: center;}
 }
