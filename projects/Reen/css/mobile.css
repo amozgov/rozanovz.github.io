@@ -24,10 +24,12 @@
            .item-5 .carousel-caption{bottom:32%;width:48%;}
            
            .about-header h2,
-           .works-header h2{font-size:1.5em;}
+           .works-header h2,
+           .contact h2{font-size:1.5em;}
            
            .about-header p,
-           .works-header p{font-size:0.8em;}
+           .works-header p,
+           .contact p{font-size:0.8em;}
            
            .about-content .fa{display: none}
            .about-content .col-xs-3{width:100%;}
