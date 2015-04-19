@@ -4,7 +4,6 @@
            .fa-search{display: none;}        
            .header-upper .right a i{
                padding: 2% 1%;
-               margin-top: 8%;
                width: 16%; 
                font-size:0.9em;
                text-align: center;
@@ -46,8 +45,8 @@
            
            .big-footer .col-xs-3,
            .small-footer .col-xs-6{width:100%;}
-           .big-footer{height:70em;}
-           .small-footer{height:5em;}
-           .small-footer .left{text-align: center;}
-           .small-footer .right{text-align: center;}
+           .big-footer{height:87em;}
+           .small-footer{height:6em;}
+           .small-footer .col-xs-6{width: 100%;text-align: center;}
+           .small-footer .right span{float:none;}
 }
