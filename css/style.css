@@ -10,6 +10,12 @@ h2{
 .container:not(:first-child){
     margin-bottom: 5%;
 }
+.about p {
+    text-align: justify;
+}
+.about img{
+    float:right;
+}
 .works{
     text-align: center;
 }
