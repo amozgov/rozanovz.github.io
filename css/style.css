@@ -1,3 +1,12 @@
+h2{
+    text-align: center;
+}
+.navbar .container .navbar-nav{
+    float:right;
+}
+.container:not(:first-child){
+    margin-bottom: 5%;
+}
 .works{
     text-align: center;
 }
@@ -22,8 +31,30 @@ figcaption{
 figcaption h4{
     font-weight:bolder;
 }
+.contacts{
+    text-align: center;
+}
+.contacts p{display: inline; margin-right: 2%;}
+
+
 @media screen and (max-width:767px){
+    .navbar .container .navbar-nav{
+        float:none;
+    }
+    .about img{
+        display:none;
+    }
+    .about .col-xs-6{
+        width:100%;
+    }
     .col-xs-3{
         width:50%;
+    }
+    .contacts{
+        text-align: left;
+    }
+    .contacts p{
+        display: block; 
+        margin:0;
     }
 }
