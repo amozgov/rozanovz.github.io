@@ -22,3 +22,8 @@ figcaption{
 figcaption h4{
     font-weight:bolder;
 }
+@media screen and (max-width:767px){
+    .col-xs-3{
+        width:50%;
+    }
+}
