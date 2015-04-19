@@ -1,5 +1,16 @@
-@media screen and (max-width:767px),
-       screen and (width:480px){
+@media screen and (max-width:341px){
+    .big-footer{height:70em;}
+}
+@media screen and (max-width:535px){
+    .big-footer{height:76em;}
+}
+@media screen and (max-width:625px){
+    .big-footer{height:80em;}
+}
+@media screen and (max-width:711px){
+    .big-footer{height:84em;}
+}
+@media screen and (max-width:767px){
            .header-upper .left,
            .fa-search{display: none;}        
            .header-upper .right a i{
