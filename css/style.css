@@ -4,6 +4,10 @@ body{
 h2{
     text-align: center;
 }
+.portfolio-logo{
+  font-family: 'Shadows Into Light', cursive;
+  font-size:2.5em;
+}
 .navbar .container .navbar-nav{
     float:right;
 }
