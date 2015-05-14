@@ -1,5 +1,5 @@
 body{margin:0 auto;width:100%;}
-.wrapper{margin:0 13%;}
+.wrapper{margin:0 10%;}
 .wrapper2{text-align: center;}
 .wrapper2 h1, p, h2{
     display: inline-block;
@@ -66,7 +66,7 @@ nav ul li a{
     background-image: url(img/hero.png);
     height:500px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 #hero .button{
     display: inline-block;
@@ -98,7 +98,7 @@ nav ul li a{
 /*Team*/
 #team{
     background-color: #f3f3f3;
-    height:532px;
+    background-size:cover;
     margin-top: 70px;
 }
 #team h2{
@@ -112,8 +112,8 @@ nav ul li a{
     box-shadow: 1px 2px 4px 0px rgba(0, 1, 1, 0.2);
     margin-top: 100px;
 }
-.team-gallery .team-member:not(:first-child){
-    margin-left:8.8%
+.team-gallery .team-member{
+    margin-right:8.8%
 }
 .team-gallery .team-member img{
     margin-left:30%;
