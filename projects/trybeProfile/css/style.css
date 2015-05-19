@@ -2,94 +2,53 @@ body{
   background: rgb(220,220,220);
 }
 
-.cardClose{
-  text-align: right;
-  font-size:1.3em;
-}
+/********
+**topCard*
+*********/
 .cardClose .mdi-navigation-close{
   cursor: pointer;
 }
-
 .profileCompleetingCard .card{
   margin-left:-2%;
-    width:104%;
+  width:104%;
 }
 .profileCompleetingCard .card-content .tellUs{
-    font-size:1.2em;
-    letter-spacing: .5px;
-    font-weight:800;
+  font-size:1.2em;
+  letter-spacing: .5px;
+  font-weight:800;
 }
-
-.profileCompleetingCard .card-content .percent,
-.profileCompleetingCard .card-content .attention{
-    color:rgb(212,212,212);
-}
-
-.profileCompleetingCard .cardActions .laterBtn,
-.profileCompleetingCard .cardActions .editProfileBtn{
-    text-align: right;
-}
-
 .profileCompleetingCard .cardActions a{
-    color: rgb(27,188,154);
-    font-weight: 500;
-    text-transform: uppercase;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .progress{
-    height:10px;
-    width:94%;
-    margin: 0 1%;
+  height:10px;
 }
-.progress .determinate {
-    background: rgb(27,188,154);
-}
+
 /********
-**Profile*
+**profile*
 *********/
-#main-info,
-#reviews-info{
-    padding-left: 0;
-}
 .profileCard{
-  background:white;
   padding-top:2%;
 }
 .profileCard .profilePic img{
-    width:150px; 
-    height:150px;
+  width:150px; 
+  height:150px;
 }
 .profileCard .mainInfo{
   font-size:3em;
   font-weight:300;
 }
-.profileCard .reviews{
-  text-align: left;
-  color: rgb(212,212,212);
-  font-weight:500;
-}
-.profileCard .changeProfilePic,
-.profileCard .changePassword{
-    color:rgb(27,188,154);
-    font-weight: 600;
-}
 .changeProfilePic{
   margin-top:4%;
-  text-align: center;
   text-transform: uppercase;
 }
-.profileCard .profileOption{
-  color: rgb(212,212,212);
+.profileCard .profileOption,
+.profileCard .profileOptionDescription,
+.profileCard .changeProfilePic,
+.profileCard .changePassword,
+.profileCard .reviews{
   font-weight:500;
-  
-}
-
-.profileCard .profileOptionDescription{
-  font-weight: 500;
-}
-
-.profileCard .profileFullDescription .row,
-.profileCard .profileAdress .row{
-  padding-left: 1.5%;
 }
 
 .profileCard .profileOptionDescription .children{
@@ -97,7 +56,7 @@ body{
 }
 
 /********
-mobile
+**mobile*
 *********/
 @media only screen and (max-width : 601px){
   .profileCard .s12,
