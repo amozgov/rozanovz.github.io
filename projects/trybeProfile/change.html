@@ -1,143 +1,236 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!--Import materialize.css-->
-<!--        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>-->
-       <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
-        <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+<head>
+    <!--Import materialize.css-->
+    <!--        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
 
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    </head>
-    <body>
-        <div class="container profileCard white">
-           
-            <div class="row col s12 m12 l12 profileMinDescription">
-               
-                <div class="col s12 m12 l3">
-                    <div class="col s12 m12 l12 profilePic">
-                        <img src="profile.jpg" alt="" class="circle">
-                    </div>
-                    <div class="col s12 m12 l8 changeProfilePic center-align">
-                        <a href="#" class="changeProfilePic teal-text text-accent-4">Change Picture</a>
-                    </div>
-                </div>
-                
-                <div class="col s12 m12 l9 profileMinDescriptionText">
-                    <div class="row col s12 m12 l12">
-                        <div class="col s12 m12 l12">
-                            <div class="id col s12 m12 l12 profileOption grey-text text-lighten-2">#681238</div>
-                        </div>
-                          <div class="input-field col s12 m6 l6">
-                            <input  id="first_name" type="text" class="validate">
-                            <label for="first_name">First Name</label>
-                          </div>
-                          <div class="input-field col s12 m6 l6">
-                            <input id="last_name" type="text" class="validate">
-                            <label for="last_name">Last Name</label>
-                          </div>
-                    </div>
-                    
-                    <div class="row col s12 m12 l12">
-                        <div class="input-field col s12 m12 l12">
-                          <input id="first_name" type="text" class="validate">
-                          <label for="first_name">Email</label>
-                        </div>
-                        <div class="col s12 m9 l3 profileOption grey-text text-lighten-2">Password</div>
-                        <div class="col s12 m3 l4">
-                          <a href="" class="changePassword teal-text text-accent-4">change password</a>
-                        </div>
-                    </div>
-                </div>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+<div class="container profileCard white">
+   
+    <div class="row col s12 m12 l12 profileMinDescription">
+        <div class="col s12 m12 l3">
+            <div class="col s12 m12 l12 profilePic">
+                <img src="profile.jpg" alt="" class="circle">
             </div>
-            
-            <div class="row profileFullDescription">
-                <div class="row col s12 m6 l6">
-                    <div class="col s12 m6 l6 profileOption grey-text text-lighten-2">Date of birth</div>
-                    <div class="col s12 m6 l6 profileOptionDescription">November 30, 1988</div>
-                </div>
-                
-                <div class="col s12 m6 l6">
-                    <div class="input-field">
-                      <select id="incomes">
-                        <option value="" disabled selected>Choose your option</option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                      </select>
-                      <label for="incomes">Incomes</label>
-                    </div>
-                </div>
-                
-                <div class="row col s12 m6 l6">
-                    <div class="col s12 m6 l6 profileOption grey-text text-lighten-2">Relationship Status</div>
-                    <div class="col s12 m6 l6 profileOptionDescription">In a relationship</div>
-                    
-                </div>
-                
-                <div class="row col s12 m6 l6">
-                    <div class="col s12 m6 l6 profileOption grey-text text-lighten-2">Occupation</div>
-                    <div class="col s12 m6 l6 profileOptionDescription">Other</div>
-                </div>
-                
-                <div class="row col s12 m6 l6">
-                    <div class="col s12 m6 l6 profileOption grey-text text-lighten-2">Sex</div>
-                    <div class="col s12 m6 l6 profileOptionDescription">Male</div>
-                    
-                </div>
-                
-                <div class="row col s12 m6 l6">
-                    <div class="col s12 m6 l6 profileOption grey-text text-lighten-2">Education</div>
-                    <div class="col s12 m6 l6 profileOptionDescription">College/university (3+ years)</div>
-                </div>
-                
-                <div class="row col s12 m6 l6">
-                    <div class="col s12 m6 l6 profileOption grey-text text-lighten-2">Car</div>
-                    <div class="col s12 m6 l6 profileOptionDescription">Yes</div>
-                    
-                </div>
-                
-                <div class="row col s12 m6 l6">
-                  <div class="col s12 m6 l6 profileOption grey-text text-lighten-2">Children</div>
-                  <div class="col s12 m6 l6 profileOptionDescription">
-                      <div class="col s12 m12 l12 children">Male (11 years old)</div>
-                      <div class="col s12 m12 l12 children">Female (8 years old)</div>
-                  </div>
-                </div>
-                
-                <div class="row col s12 m6 l6">
-                    <div class="col s12 m6 l6 profileOption grey-text text-lighten-2">Pets</div>
-                    <div class="col s12 m6 l6 profileOptionDescription">Cat</div>
-                </div>
+            <div class="col s12 m12 l8 changeProfilePic center-align">
+                <a href="#" class="changeProfilePic teal-text text-accent-4">Change Picture</a>
             </div>
-            
-            
-            <div class="row profileAdress">
-                <div class="row col s12 m6 l6">
-                    <div class="col s12 m6 l6 profileOption grey-text text-lighten-2">Adress</div>
-                    <div class="col s12 m6 l6 profileOptionDescription">Arbins gate 4, 0253 Oslo, Norway</div>
-                </div>
-            </div>
-            
-          
-            <div class="row profileEdit">
-                <div class="row col s12 m12 l12">
-                    <div class="input-field col s5 m5 l9"></div>
-                    <a href="change.html" class="btn col s3 m3 l3 teal accent-4">Save Changes</a>
-                </div>
-            </div>
-
         </div>
-        
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+        <div class="col s12 m12 l9 profileMinDescriptionText">
+            <div class="row col s12 m12 l12">
+
+                <div class="col s12 m12 l12">
+                    <div class="id col s12 m12 l12 profileOption grey-text text-lighten-2">#681238</div>
+                </div>
+                <div class="input-field col s12 m6 l6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s12 m6 l6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                </div>
+            </div>
+            <div class="row col s12 m12 l12">
+                <div class="input-field col s12 m12 l12">
+                    <input id="Email" type="text" class="validate">
+                    <label for="Email">Email</label>
+                </div>
+                <div class="col s12 m9 l3 profileOption grey-text text-lighten-2">Password</div>
+                <div class="col s12 m3 l4">
+                    <a href="" class="changePassword teal-text text-accent-4">change password</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row profileFullDescription">
+        <div class="row col s12 m6 l6">
+            <div class="row col s12 m12 l12">
+                <!--                    <div class="col s12 m4 l4 profileOption grey-text text-lighten-2">Date of birth</div>-->
+                <label for="dateOfBirth">Date Of Birth</label>
+                <input type="date" class="datepicker col s12 m12 l12" id="dateOfBirth" style="margin-top:-1%;">
+            </div>
+
+            <div class="row col s12 m12 l12">
+                <!--                    <div class="input-field col s12 m4 l4 profileOption grey-text text-lighten-2">Relationship Status</div>-->
+                <div class="input-field col s12 m12 l12">
+                    <select id="">
+                        <option value="relationshipStatus" disabled selected>...</option>
+                        <option value="1">Single</option>
+                        <option value="2">Married</option>
+                        <option value="3">in relationship</option>
+                    </select>
+                    <label for="relationshipStatus">Relationship Status</label>
+                </div>
+            </div>
+            <div class="row col s12 m12 l12">
+                <!--                    <div class="input-field col s12 m4 l4 profileOption grey-text text-lighten-2">Sex</div>-->
+                <div class="input-field col s12 m12 l12">
+                    <select id="sex">
+                        <option value="" disabled selected>...</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                    </select>
+                    <label for="sex">Sex</label>
+                </div>
+            </div>
+            <div class="row col s12 m12 l12">
+                <!--                    <div class="input-field col s12 m4 l4 profileOption grey-text text-lighten-2">Car</div>-->
+                <div class="input-field col s12 m12 l12">
+                    <select id="car">
+                        <option value="" disabled selected>...</option>
+                        <option value="1">Yes</option>
+                        <option value="2">No</option>
+                    </select>
+                    <label for="car">Car</label>
+                </div>
+            </div>
+            <div class="row col s12 m12 l12">
+                <!--                    <div class="input-field col s12 m4 l4 profileOption grey-text text-lighten-2">Pet</div>-->
+                <div class="input-field col s12 m12 l12">
+                    <select id="pets">
+                        <option value="" disabled selected>...</option>
+                        <option value="1">Cat</option>
+                        <option value="2">Dog</option>
+                        <option value="3">Other</option>
+                    </select>
+                    <label for="pets">Pets</label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row col s12 m6 l6">
+            <div class="row col s12 m12 l12">
+                <!--                    <div class="input-field col s12 m4 l4 profileOption grey-text text-lighten-2">Incomes</div>-->
+                <div class="input-field col s12 m12 l12">
+                    <select id="incomes">
+                        <option value="" disabled selected>...</option>
+                        <option value="1">10 000+</option>
+                        <option value="2">20 000+</option>
+                        <option value="3">30 000+</option>
+                        <option value="4">40 000+</option>
+                    </select>
+                    <label for="incomes">Incomes</label>
+                </div>
+            </div>
+            <div class="row col s12 m12 l12">
+                <!--                    <div class="input-field col s12 m4 l4 profileOption grey-text text-lighten-2">Occupation</div>-->
+                <div class="input-field col s12 m12 l12">
+                    <select id="occupation">
+                        <option value="" disabled selected>...</option>
+                        <option value="1">Other 1</option>
+                        <option value="2">Other 2</option>
+                    </select>
+                    <label for="occupation">Occupation</label>
+                </div>
+            </div>
+            <div class="row col s12 m12 l12">
+                <!--                    <div class="input-field col s12 m4 l4 profileOption grey-text text-lighten-2">Education</div>-->
+                <div class="input-field col s12 m12 l12">
+                    <select id="education">
+                        <option value="" disabled selected>...</option>
+                        <option value="1">College/university (3+ years)</option>
+                        <option value="2">College/university (2+ years)</option>
+                    </select>
+                    <label for="education">Education</label>
+                </div>
+            </div>
+            <div class="row col s12 m12 l12">
+                <div class="col s12 m4 l4 profileOption grey-text text-lighten-2">Children</div>
+                <div class="col s12 m8 l8 profileOptionDescription">
+                    <div class="col s10 m9 l10 children">Male (11 years old)</div>
+                    <button class="btn col s2 m3 l2"><i class="mdi-navigation-close small center-align"></i></button>
+                    <div class="input-field col s12 m12 l12"></div>
+                    <div class="col s10 m9 l10 children">Female (8 years old)</div>
+                    <button class="btn col s2 m3 l2"><i class="mdi-navigation-close small center-align"></i></button>
+                    <div class="input-field col s12 m12 l12"></div>
+                    <div class="input-field col s12 m4 l4">
+                        <select id="">
+                            <option value="" disabled selected>...</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                        <!--                      <label for="incomes"></label>-->
+                    </div>
+                    <div class="input-field col s12 m5 l6">
+                        <select id="">
+                            <option value="" disabled selected>...</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                        <!--                      <label for="incomes"></label>-->
+                    </div>
+                    <button class="btn col s2 m3 l2 input-field right"><i
+                            class="mdi-content-add small center-align"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row profileAdress">
+        <div class="row col s12 m6 l6">
+            <div class="input-field col s12 m12 l12">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">Address Line 1</label>
+            </div>
+            <div class="input-field col s12 m12 l12">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">Address Line 2</label>
+            </div>
+            <div class="input-field col s12 m12 l12">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">Zip code</label>
+            </div>
+        </div>
+        <div class="row col s12 m6 l6">
+            <div class="input-field col s12 m12 l12">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">City</label>
+            </div>
+            <div class="input-field col s12 m12 l12">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">State</label>
+            </div>
+            <div class="input-field col s12 m12 l12">
+                <select id="country">
+                    <option value="" disabled selected>...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+                <label for="country">Country</label>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row profileEdit">
+        <div class="row col s12 m12 l12">
+            <a href="change.html" class="btn col s12 m3 l2 white teal-text text-accent-4">Delete Profile</a>
+            <a href="change.html" class="btn col s12 m2 l1 teal accent-4 right">Save</a>
+            <a href="change.html" class="btn col s12 m2 l1 white teal-text text-accent-4 right">Cancel</a>
+        </div>
+    </div>
+</div>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
 <!--        <script type="text/javascript" src="js/materialize.min.js"></script>-->
-        <script>
-          $(document).ready(function() {
-            $('select').material_select();
-          });
-        </script>
-    </body>
+<script>
+    $(document).ready(function () {
+        $('select').material_select();
+    });
+    $('.datepicker').pickadate({
+        selectMonths: true, // Creates a dropdown to control month
+        selectYears: 15 // Creates a dropdown of 15 years to control year
+    });
+</script>
+</body>
 </html>
