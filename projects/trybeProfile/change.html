@@ -15,10 +15,10 @@
    
     <div class="row col s12 m12 l12 profileMinDescription">
         <div class="col s12 m12 l3">
-            <div class="col s12 m12 l12 profilePic">
+            <div class="col s12 m12 l12 profilePic center">
                 <img src="profile.jpg" alt="" class="circle">
             </div>
-            <div class="col s12 m12 l8 changeProfilePic center-align">
+            <div class="col s12 m12 l12 changeProfilePic center-align">
                 <a href="#" class="changeProfilePic teal-text text-accent-4">Change Picture</a>
             </div>
         </div>
@@ -96,15 +96,33 @@
                 </div>
             </div>
             <div class="row col s12 m12 l12">
-                <!--                    <div class="input-field col s12 m4 l4 profileOption grey-text text-lighten-2">Pet</div>-->
-                <div class="input-field col s12 m12 l12">
-                    <select id="pets">
-                        <option value="" disabled selected>...</option>
-                        <option value="1">Cat</option>
-                        <option value="2">Dog</option>
-                        <option value="3">Other</option>
-                    </select>
-                    <label for="pets">Pets</label>
+                <div class="col s12 m4 l4 profileOption grey-text text-lighten-2">Pets</div>
+                <div class="col s12 m8 l8 profileOptionDescription">
+                    <div class="col s10 m9 l10 children">Dog</div>
+                    <button class="btn col s2 m3 l2"><i class="mdi-navigation-close small center-align"></i></button>
+                    <div class="input-field col s12 m12 l12"></div>
+                    <div class="col s10 m9 l10 children">Cat</div>
+                    <button class="btn col s2 m3 l2"><i class="mdi-navigation-close small center-align"></i></button>
+                    <div class="input-field col s12 m12 l12"></div>
+                    <div class="input-field col s12 m4 l4">
+                        <select id="">
+                            <option value="" disabled selected>...</option>
+                            <option value="1">Cat</option>
+                            <option value="2">Dog</option>
+                            <option value="2">Other</option>
+                        </select>
+                        <!--                      <label for="incomes"></label>-->
+                    </div>
+                    <div class="input-field col s12 m5 l6">
+                        <select id="">
+                            <option value="" disabled selected>...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                        <!--                      <label for="incomes"></label>-->
+                    </div>
+                    <button class="btn col s2 m3 l2 input-field right"><i
+                            class="mdi-content-add small center-align"></i></button>
                 </div>
             </div>
         </div>
@@ -215,7 +233,7 @@
     
     <div class="row profileEdit">
         <div class="row col s12 m12 l12">
-            <a href="change.html" class="btn col s5 m4 l3 white teal-text text-accent-4 deleteProficeCancel">Delete Profile</a>
+            <a href="change.html" class="btn col s5 m4 l3 white red-text text-accent-4 deleteProficeCancel">Delete Profile</a>
             <a class="input-field col s0 m4 l5"></a>
             <a href="change.html" class="btn col s3 m2 l2 white teal-text text-accent-4 deleteProficeCancel">Cancel</a>
             <a href="change.html" class="btn col s3 m2 l2 teal accent-4">Save</a>
