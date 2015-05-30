@@ -3,7 +3,6 @@
     <head>
         <!--Import materialize.css-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
-        <link rel="stylesheet" href="lib/jquery.raty.css">
 
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
@@ -56,10 +55,15 @@
                     <div class="col s5 m4 l3 productImage">
                         <img src="150x150_product_image.jpg" alt="">
                     </div>
-                    <div class="col s4 m3 l4 grey-text description">
-                        <div class="col s12 m12 l12">
-                            <i class="mdi-action-star-rate "> hidden</i>
-                        </div>
+                    <div class="col s5 m4 l7 grey-text description">
+                        <div class="col s12 m12 l12 ">
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                                <span class="description"> 3,7 average rating (you rated 4 out of 5)</span>
+                            </div>
                         <div class="col s12 m12 l12">
                             <i class="mdi-social-people "> 1,749 reviwes</i>
                         </div>
@@ -67,8 +71,8 @@
                             <i class="mdi-social-share "> 349 shares</i>
                         </div>
                     </div>
-                    <div class="col s4 m5 l5">
-                        <a class="right btn modal-trigger pink" href="#modal1" style="margin-top:10%;">review</a>
+                    <div class="col s4 m4 l2">
+                        <a class="right btn blue" href="#" style="margin-top:35%;">share</a>
                     </div>
                 </div>
                 
@@ -122,101 +126,75 @@ felis. Nunc sollicitudin sagittis convallis.
                 </div>
             </div>
             
-            
-        </div>
-        
-        <div id="modal1" class=" p15 modal">
-            <div class="card-panel modalCard">
-                <h3 class="center">Write a review</h3>
-                <p class="center">[review info]</p>
-                <div class="rating center">
-                
-                </div>
-                <div class="input-field col s12">
-                    <textarea id="textarea1" class="materialize-textarea" length="1000"></textarea>
-                </div>
-                <div class="row">
-                    <div class="col s12 m12 l4">
-                        <p class="description">
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        </p>
-                        <form action="#">
-                            <p>
-                                <input name="group1" type="radio" id="test1"/>
-                                <label for="test1">Option 1</label>
-                            </p>
-
-                            <p>
-                                <input name="group1" type="radio" id="test2"/>
-                                <label for="test2">Option 2</label>
-                            </p>
-
-                            <p>
-                                <input name="group1" type="radio" id="test3"/>
-                                <label for="test3">Option 3</label>
-                            </p>
-                        </form>
-                    </div>
-                    <div class="col s12 m12 l4">
-                        <p class="description">
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        </p>
-
-                        <form action="#">
-                            <p>
-                                <input type="checkbox" class="filled-in" id="filled-in-box1" checked="checked"/>
-                                <label for="filled-in-box1">Option 1</label>
-                            </p>
-
-                            <p>
-                                <input type="checkbox" class="filled-in" id="filled-in-box2"/>
-                                <label for="filled-in-box2">Option 2</label>
-                            </p>
-
-                            <p>
-                                <input type="checkbox" class="filled-in" id="filled-in-box3"/>
-                                <label for="filled-in-box3">Option 3</label>
-                            </p>
-                        </form>
-                    </div>
-                    <div class="col s12 m12 l4">
-                        <p class="description">
-                           Lorem ipsum dolor sit amet,
-                        </p>
-                        <form action="#">
-                            <p>
-                                <input name="group1" type="radio" id="test4"/>
-                                <label for="test4">Option 1</label>
-                            </p>
-
-                            <p>
-                                <input name="group1" type="radio" id="test5"/>
-                                <label for="test5">Option 2</label>
-                            </p>
-
-                            <p>
-                                <input name="group1" type="radio" id="test6"/>
-                                <label for="test6">Option 3</label>
-                            </p>
-                        </form>
+            <div class="row">
+                <div class="col s12 m12 l6">
+                    <div class="section white card-panel z-depth-1">
+                        <div class="row">
+                            <div class="col s2 m2 l2 center">
+                                <img class="responsive-img" src="37x37_user_avatar1.png">
+                            </div>
+                            <div class="col s3 m3 l3 center">
+                                <h6 style="font-weight:bold;">User name</h6>
+                                <p class="grey-text description">March 12, 2015</p>
+                            </div>
+                            <div class="col s6 m6 l6 center grey-text">
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                            </div>
+                            <div class="col s12 m12 l12">
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+ultrices porta mattis. In rutrum massa sit amet accumsan vehicula.</p>
+                            </div>
+                            <div class="col s12 m12 l12">
+                                <p class="description">Suspendisse et rhoncus ligula, nec efficitur felis. Nunc sollicitudin
+sagittis convallis. </p>
+                            </div>
+                            <div class="col s12 m12 l12">
+                                <div class="tw right"></div><div class="fb right"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row submitCancel">
-                    <a href="" class="btn right submitButton white teal-text text-accent-4">Submit</a>
-                    <a href="" class="btn white grey-text right cancelButton">Cancel</a>
+               <div class="col s12 m12 l6">
+                    <div class="section white card-panel z-depth-1">
+                        <div class="row">
+                            <div class="col s2 m2 l2 center">
+                                <img class="responsive-img" src="37x37_user_avatar1.png">
+                            </div>
+                            <div class="col s3 m3 l3 center">
+                                <h6 style="font-weight:bold;">User name</h6>
+                                <p class="grey-text description">March 12, 2015</p>
+                            </div>
+                            <div class="col s6 m6 l6 center grey-text">
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                                <i class="mdi-action-star-rate small"></i>
+                            </div>
+                            <div class="col s12 m12 l12">
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+ultrices porta mattis. In rutrum massa sit amet accumsan vehicula.</p>
+                            </div>
+                            <div class="col s12 m12 l12">
+                                <p class="description">Suspendisse et rhoncus ligula, nec efficitur felis. Nunc sollicitudin
+sagittis convallis. </p>
+                            </div>
+                            <div class="col s12 m12 l12">
+                                <div class="tw right"></div><div class="fb right"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        
         <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
-        <script src="lib/jquery.raty.js"></script>
         <script>
-            $(document).ready(function () {
-                $('.modal-trigger').leanModal();
-            });
-            $('.rating').raty({ score: 3 });
         </script>
     </body>
 </html>
