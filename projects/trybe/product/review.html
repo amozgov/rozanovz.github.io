@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <style>
+            .description{
+                font-size:.9em;
+            }
+            .strongInfo{
+                font-weight: bold;
+            }
+            .fb{
+                background:url(facebook.png);
+                height: 15px;
+                width: 15px;
+                display:inline-block;
+                margin-right: 3%;
+            }
+            .tw{
+                background:url(twitter-bird-16x16.png);
+                height: 15px;
+                width: 15px;
+                display:inline-block;
+            }
+            .productImage{
+                margin-top: -7.6%;
+            }
+            .coverImgage{
+                background: url(300x150_cover_image.jpg) no-repeat;
+                background-size:cover;
+                width: 100%;
+                height: 400px;
+            }
+            .modalCard{
+                box-shadow: none;
+            }
+            .submitButton{
+                margin-left: 2%;
+            }
+            .submitCancel{
+                margin-top: 9%;
+            }
+        </style>
+    </head>
+    <body class="grey">
+        <div class="container p15">
+            <div class="section white card-panel z-depth-1">
+                <div class="row coverImgage"></div>
+                
+                <div class="row">
+                    <div class="col s5 m4 l3 productImage">
+                        <img src="150x150_product_image.jpg" alt="">
+                    </div>
+                    <div class="col s4 m3 l4 grey-text description">
+                        <div class="col s12 m12 l12">
+                            <i class="mdi-action-star-rate "> hidden</i>
+                        </div>
+                        <div class="col s12 m12 l12">
+                            <i class="mdi-social-people "> 1,749 reviwes</i>
+                        </div>
+                        <div class="col s12 m12 l12">
+                            <i class="mdi-social-share "> 349 shares</i>
+                        </div>
+                    </div>
+                    <div class="col s4 m5 l5">
+                        <a class="right btn modal-trigger pink" href="#modal1" style="margin-top:10%;">review</a>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <h3 class="productName">Product Name</h3>
+                        <div class="col s6 m l6">
+                            <h4 class="byBrand grey-text">by Brand</h4>
+                        </div>
+                        <div class="col s6 m6 l6">
+                            <h4 class="brandLogo grey-text right">brand logo</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col s12 m12 l8">
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Maecenas ultrices porta mattis. In rutrum massa sit amet
+accumsan vehicula.
+                        </p>
+                        <p class="description">
+                            Curabitur vel diam at purus tristique convallis. Ut ut odio
+neque. Nulla laoreet libero vel nisl pharetra, sit amet
+dapibus quam ultrices.
+                        </p>
+                        <p class="description">
+                            Nulla eget bibendum dui. Aliquam a ipsum ultricies augue
+vestibulum fringilla vitae eu enim. Suspendisse et rhoncus
+ligula, nec efficitur felis. Nunc sollicitudin sagittis convallis.
+                        </p>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <h6 class="strongInfo">Share this page!</h6>
+                        <div class="fb"></div>
+                        <div class="tw"></div>
+                        <h6 class="strongInfo">More info</h6>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Maecenas ultrices porta
+mattis. In rutrum massa sit amet accumsan
+vehicula.
+                        </p>
+                        <p class="description">
+                            Suspendisse et rhoncus ligula, nec efficitur
+felis. Nunc sollicitudin sagittis convallis.
+                        </p>
+                        <button class="btn disabled right">buy</button>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <div id="modal1" class=" p15 modal">
+            <div class="card-panel modalCard">
+                <h3 class="center">Write a review</h3>
+                <p class="center">[review info]</p>
+                <p class="center">
+                    <i class="mdi-action-star-rate medium"></i>
+                    <i class="mdi-action-star-rate medium"></i>
+                    <i class="mdi-action-star-rate medium"></i>
+                    <i class="mdi-action-star-rate medium"></i>
+                    <i class="mdi-action-star-rate medium"></i>
+                </p>
+                <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea" length="1000"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l4">
+                        <p class="description">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        </p>
+                        <form action="#">
+                            <p>
+                                <input name="group1" type="radio" id="test1"/>
+                                <label for="test1">Option 1</label>
+                            </p>
+
+                            <p>
+                                <input name="group1" type="radio" id="test2"/>
+                                <label for="test2">Option 2</label>
+                            </p>
+
+                            <p>
+                                <input name="group1" type="radio" id="test3"/>
+                                <label for="test3">Option 3</label>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <p class="description">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        </p>
+
+                        <form action="#">
+                            <p>
+                                <input type="checkbox" class="filled-in" id="filled-in-box1" checked="checked"/>
+                                <label for="filled-in-box1">Option 1</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" class="filled-in" id="filled-in-box2"/>
+                                <label for="filled-in-box2">Option 2</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" class="filled-in" id="filled-in-box3"/>
+                                <label for="filled-in-box3">Option 3</label>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <p class="description">
+                           Lorem ipsum dolor sit amet,
+                        </p>
+                        <form action="#">
+                            <p>
+                                <input name="group1" type="radio" id="test4"/>
+                                <label for="test4">Option 1</label>
+                            </p>
+
+                            <p>
+                                <input name="group1" type="radio" id="test5"/>
+                                <label for="test5">Option 2</label>
+                            </p>
+
+                            <p>
+                                <input name="group1" type="radio" id="test6"/>
+                                <label for="test6">Option 3</label>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+                <div class="row submitCancel">
+                    <a href="" class="btn right submitButton white teal-text text-accent-4">Submit</a>
+                    <a href="" class="btn white grey-text right cancelButton">Cancel</a>
+                </div>
+            </div>
+        </div>
+        
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.modal-trigger').leanModal();
+            });
+        </script>
+    </body>
+</html>
