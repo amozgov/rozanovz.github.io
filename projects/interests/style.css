@@ -2,7 +2,7 @@
     display: inline-block;
     width: 224px;
     height: 224px;
-    margin-bottom: -.5%;
+    margin-bottom: -.19%;
 }
 .contentOverlay .imgOverlay{
     width: 224px;
@@ -14,12 +14,18 @@
 }
 .buttonOverlay .btn{
     margin-top: 40%;
+    display: none;
 }
 .contentOverlay:hover .buttonOverlay{
     display: block;
-    background: rgba(0,191,165,.7);
+    background: rgba(0,191,165,.6);
+    box-shadow: 0px 3px 13px 2px black;
     width: 224px;
     height: 224px;
+    cursor: pointer;
+}
+.contentOverlay.active .btn{
+    display: block;
 }
 .Animals{    background: url(interests/Animals.png) no-repeat; background-size: cover;}
 .Arts{    background: url(interests/Arts.png) no-repeat; background-size: cover;}
