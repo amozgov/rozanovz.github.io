@@ -2,6 +2,7 @@
     display: inline-block;
     width: 224px;
     height: 224px;
+    margin-bottom: -.5%;
 }
 .contentOverlay .imgOverlay{
     width: 224px;
