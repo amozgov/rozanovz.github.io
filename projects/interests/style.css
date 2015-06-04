@@ -1,11 +1,11 @@
 .contentOverlay{
     display: inline-block;
-    width: 252px;
-    height: 252px;
+    width: 224px;
+    height: 224px;
 }
 .contentOverlay .imgOverlay{
-    width: 252px;
-    height: 252px;
+    width: 224px;
+    height: 224px;
 }
 .contentOverlay .buttonOverlay{
     position: absolute;
@@ -17,8 +17,8 @@
 .contentOverlay:hover .buttonOverlay{
     display: block;
     background: rgba(0,191,165,.7);
-    width: 252px;
-    height: 252px;
+    width: 224px;
+    height: 224px;
 }
 .Animals{    background: url(interests/Animals.png) no-repeat; background-size: cover;}
 .Arts{    background: url(interests/Arts.png) no-repeat; background-size: cover;}
