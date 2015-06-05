@@ -1,3 +1,13 @@
+.checkedSymbol{
+    position: relative;
+    top:16%;
+}
+.checked{
+    display:block;
+}
+.notChecked{
+    display: none;
+}
 .contentOverlay{
     display: inline-block;
     width: 224px;
@@ -9,24 +19,34 @@
     height: 224px;
 }
 .contentOverlay .buttonOverlay{
+    display: none;
     position: absolute;
-    display: none;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
 }
-.buttonOverlay .btn{
-    margin-top: 40%;
-    display: none;
-}
+
 .contentOverlay:hover .buttonOverlay{
     display: block;
+    opacity: 1;
     background: rgba(0,191,165,.6);
     box-shadow: 0px 3px 13px 2px black;
     width: 224px;
     height: 224px;
     cursor: pointer;
+    opacity:.9;
 }
-.contentOverlay.active .btn{
+.buttonOverlayChecked{
+    position: absolute;
     display: block;
+    opacity: 1;
+    background: rgba(0,191,165,.6);
+    box-shadow: 0px 3px 13px 2px black;
+    width: 224px;
+    height: 224px;
+    cursor: pointer;
+    opacity:.9;
 }
+
 .Animals{    background: url(interests/Animals.png) no-repeat; background-size: cover;}
 .Arts{    background: url(interests/Arts.png) no-repeat; background-size: cover;}
 .Automotive{    background: url(interests/Automotive.png) no-repeat; background-size: cover;}
