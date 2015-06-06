@@ -23,6 +23,9 @@ body {
 .firstPage .mainPageInfo {
   background: #efefef;
   border: 2px dashed #89c2ef;
+  margin-top: 10px;
+}
+.firstPage .mainPageInfoRow {
   margin-top: 150px;
 }
 .firstPage .beginJorney {
