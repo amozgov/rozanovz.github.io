@@ -1,0 +1,57 @@
+@font-face {
+  font-family: courier;
+  src: url(fonts/CourierRegular.ttf);
+}
+
+@white: #FFF;
+@black: #303030;
+@grey: #efefef;
+@hover: #89c2ef;
+
+
+body { 
+    padding-top: 70px; 
+    font-family:courier;  
+}
+.navbar-inverse {    
+    background:  @black;
+    .navbar-brand,
+    .nav li a {
+        color: @white;
+        &:hover {
+            color:@hover ;
+        }
+    }
+}
+
+.firstPage{
+    color:@black;
+    .mainPageInfo{
+        background: @grey;
+        border:2px dashed @hover;
+        margin-top: 150px;
+    }
+    .beginJorney{
+        background: @white;
+        border: 1px solid @black;
+        border-radius: 0;
+        width: 20%;
+        margin-top: 200px;
+        &:hover{
+            background: @hover;
+            color:@white;
+        }
+    }
+    .explore{
+        background: @white;
+        margin-top: 200px;
+        width:50px; height:50px;
+        padding-top: 13px;
+        &:hover{
+            border:1px solid @black;
+            border-radius: 100%;
+            background: @hover;
+            color:@white;
+        }
+    }
+}

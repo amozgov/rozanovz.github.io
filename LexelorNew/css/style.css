@@ -1,0 +1,51 @@
+@font-face {
+  font-family: courier;
+  src: url(fonts/CourierRegular.ttf);
+}
+body {
+  padding-top: 70px;
+  font-family: courier;
+}
+.navbar-inverse {
+  background: #303030;
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .nav li a {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .nav li a:hover {
+  color: #89c2ef;
+}
+.firstPage {
+  color: #303030;
+}
+.firstPage .mainPageInfo {
+  background: #efefef;
+  border: 2px dashed #89c2ef;
+  margin-top: 150px;
+}
+.firstPage .beginJorney {
+  background: #ffffff;
+  border: 1px solid #303030;
+  border-radius: 0;
+  width: 20%;
+  margin-top: 200px;
+}
+.firstPage .beginJorney:hover {
+  background: #89c2ef;
+  color: #ffffff;
+}
+.firstPage .explore {
+  background: #ffffff;
+  margin-top: 200px;
+  width: 50px;
+  height: 50px;
+  padding-top: 13px;
+}
+.firstPage .explore:hover {
+  border: 1px solid #303030;
+  border-radius: 100%;
+  background: #89c2ef;
+  color: #ffffff;
+}
