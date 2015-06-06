@@ -26,11 +26,6 @@ body {
 
 .firstPage{
     color:@black;
-    .mainPageInfo{
-        background: @grey;
-        border:2px dashed @hover;
-        margin-top: 10px;
-    }
     .mainPageInfoRow{
         margin-top: 150px;
     }
@@ -39,7 +34,7 @@ body {
         border: 1px solid @black;
         border-radius: 0;
         width: 20%;
-        margin-top: 200px;
+        margin-top: 50px;
         &:hover{
             background: @hover;
             color:@white;
@@ -47,7 +42,7 @@ body {
     }
     .explore{
         background: @white;
-        margin-top: 200px;
+        margin-top: 100px;
         width:50px; height:50px;
         padding-top: 13px;
         &:hover{
@@ -56,5 +51,68 @@ body {
             background: @hover;
             color:@white;
         }
+    }
+}
+.PageInfo{
+    background: @grey;
+    border:2px dashed @hover;
+    margin-top: 10px;
+}
+.greyHeading{
+    padding-top: 20px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    background: @grey;
+    height:180px;
+}
+.circles{
+    margin-top: 50px;
+    .circle{
+        width:120px;
+        height:120px;
+        border-radius: 60px;
+        border:1px solid @black;
+        font-size:2em;
+        padding-top:5%;
+    }
+}
+.bigButton{
+    padding-top: 20px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    background: @hover;
+    height:150px;
+    color:@white;
+    width:100%;
+    text-align: left;
+}
+
+.footer a{
+    color:@black;
+    &:hover{
+        text-decoration: none;
+        color:@hover;
+    }
+}
+
+.copyright{
+    color:darkgray;
+}
+
+strong{
+    font-weight: bolder;
+}
+
+@media screen and (max-width:769px){
+    .footer .col-sm-12 p,
+    .footer .col-sm-12 ul{
+        text-align:center;
+    }
+    
+}
+
+@media screen and (max-width:450px){
+    .greyHeading{
+        height: 250px;
     }
 }

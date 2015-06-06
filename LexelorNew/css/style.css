@@ -20,11 +20,6 @@ body {
 .firstPage {
   color: #303030;
 }
-.firstPage .mainPageInfo {
-  background: #efefef;
-  border: 2px dashed #89c2ef;
-  margin-top: 10px;
-}
 .firstPage .mainPageInfoRow {
   margin-top: 150px;
 }
@@ -33,7 +28,7 @@ body {
   border: 1px solid #303030;
   border-radius: 0;
   width: 20%;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 .firstPage .beginJorney:hover {
   background: #89c2ef;
@@ -41,7 +36,7 @@ body {
 }
 .firstPage .explore {
   background: #ffffff;
-  margin-top: 200px;
+  margin-top: 100px;
   width: 50px;
   height: 50px;
   padding-top: 13px;
@@ -51,4 +46,61 @@ body {
   border-radius: 100%;
   background: #89c2ef;
   color: #ffffff;
+}
+.PageInfo {
+  background: #efefef;
+  border: 2px dashed #89c2ef;
+  margin-top: 10px;
+}
+.greyHeading {
+  padding-top: 20px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  background: #efefef;
+  height: 180px;
+}
+.circles {
+  margin-top: 50px;
+}
+.circles .circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 1px solid #303030;
+  font-size: 2em;
+  padding-top: 5%;
+}
+.bigButton {
+  padding-top: 20px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  background: #89c2ef;
+  height: 150px;
+  color: #ffffff;
+  width: 100%;
+  text-align: left;
+}
+.footer a {
+  color: #303030;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #89c2ef;
+}
+.copyright {
+  color: darkgray;
+}
+strong {
+  font-weight: bolder;
+}
+@media screen and (max-width: 769px) {
+  .footer .col-sm-12 p,
+  .footer .col-sm-12 ul {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .greyHeading {
+    height: 250px;
+  }
 }
