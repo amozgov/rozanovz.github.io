@@ -3,19 +3,30 @@
   src: url(fonts/CourierRegular.ttf);
 }
 body {
-  padding-top: 70px;
+  padding-top: 140px;
   font-family: courier;
 }
 .navbar-inverse {
   background: #303030;
+  height: 80px;
+  padding-top: 1%;
 }
-.navbar-inverse .navbar-brand,
 .navbar-inverse .nav li a {
   color: #ffffff;
 }
-.navbar-inverse .navbar-brand:hover,
 .navbar-inverse .nav li a:hover {
   color: #89c2ef;
+}
+.navbar-inverse .navbar-header {
+  margin-left: 5%;
+}
+@media screen and (max-width: 769px) {
+  .navbar-inverse .navbar-header {
+    margin-left: 0;
+  }
+}
+.navbar-inverse .navbar-header .navbar-brand {
+  color: #ffffff;
 }
 .firstPage {
   color: #303030;
@@ -35,21 +46,12 @@ body {
   color: #ffffff;
 }
 .firstPage .explore {
-  background: #ffffff;
+  background: none;
   margin-top: 100px;
-  width: 50px;
-  height: 50px;
-  padding-top: 13px;
-}
-.firstPage .explore:hover {
-  border: 1px solid #303030;
-  border-radius: 100%;
-  background: #89c2ef;
-  color: #ffffff;
 }
 .PageInfo {
   background: #efefef;
-  border: 2px dashed #89c2ef;
+  border: 1px dashed #89c2ef;
   margin-top: 10px;
 }
 .greyHeading {
@@ -58,6 +60,11 @@ body {
   margin-bottom: 50px;
   background: #efefef;
   height: 180px;
+}
+@media screen and (max-width: 450px) {
+  .greyHeading {
+    height: 250px;
+  }
 }
 .circles {
   margin-top: 50px;
@@ -89,6 +96,7 @@ body {
 }
 .copyright {
   color: darkgray;
+  font-size: .7em;
 }
 strong {
   font-weight: bolder;
@@ -97,10 +105,5 @@ strong {
   .footer .col-sm-12 p,
   .footer .col-sm-12 ul {
     text-align: center;
-  }
-}
-@media screen and (max-width: 450px) {
-  .greyHeading {
-    height: 250px;
   }
 }

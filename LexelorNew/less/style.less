@@ -10,18 +10,31 @@
 
 
 body { 
-    padding-top: 70px; 
+    padding-top: 140px; 
     font-family:courier;  
 }
+
 .navbar-inverse {    
     background:  @black;
-    .navbar-brand,
+    height:80px;
+    padding-top: 1%;
     .nav li a {
         color: @white;
         &:hover {
             color:@hover ;
         }
     }
+    .navbar-header{
+        margin-left: 5%;
+        
+        @media screen and (max-width:769px){
+            margin-left: 0;
+        }
+        .navbar-brand{
+            color: @white;
+        }
+    }
+    
 }
 
 .firstPage{
@@ -41,21 +54,14 @@ body {
         }
     }
     .explore{
-        background: @white;
-        margin-top: 100px;
-        width:50px; height:50px;
-        padding-top: 13px;
-        &:hover{
-            border:1px solid @black;
-            border-radius: 100%;
-            background: @hover;
-            color:@white;
-        }
+        background: none;
+        margin-top:100px;
     }
 }
+
 .PageInfo{
     background: @grey;
-    border:2px dashed @hover;
+    border:1px dashed @hover;
     margin-top: 10px;
 }
 .greyHeading{
@@ -64,7 +70,12 @@ body {
     margin-bottom: 50px;
     background: @grey;
     height:180px;
+    
+    @media screen and (max-width:450px){
+        height: 250px;
+    }
 }
+
 .circles{
     margin-top: 50px;
     .circle{
@@ -97,6 +108,7 @@ body {
 
 .copyright{
     color:darkgray;
+    font-size:.7em;
 }
 
 strong{
@@ -111,8 +123,3 @@ strong{
     
 }
 
-@media screen and (max-width:450px){
-    .greyHeading{
-        height: 250px;
-    }
-}
