@@ -2,6 +2,10 @@
   font-family: courier;
   src: url(fonts/CourierRegular.ttf);
 }
+html,
+body {
+  height: 100%;
+}
 body {
   padding-top: 140px;
   font-family: courier;
@@ -36,9 +40,13 @@ body {
 }
 .firstPage {
   color: #303030;
+  height: 100%;
+}
+.firstPage h1 {
+  font-weight: lighter;
 }
 .firstPage .mainPageInfoRow {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .firstPage .beginJorney {
   background: #ffffff;
