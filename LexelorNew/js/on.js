@@ -3,11 +3,21 @@
  * @author Jonathan Nicol - @mrjnicol
  */
 
+//document.addEventListener('DOMContentLoaded', function () {
+//  particleground(document.getElementById('greyHeading'), {
+//    dotColor: 'dimgray',
+//    lineColor: 'dimgray'
+//  });
+//}, false);
+//
+
 document.addEventListener('DOMContentLoaded', function () {
   particleground(document.getElementById('greyHeading'), {
-    dotColor: 'dimgray',
-    lineColor: 'dimgray'
+    dotColor: '#89c2ef',
+    lineColor: '#89c2ef'
   });
+  var intro = document.getElementById('greyHeadingContent');
+  intro.style.marginTop = - intro.offsetHeight / 0.6 + 'px';
 }, false);
 
 
