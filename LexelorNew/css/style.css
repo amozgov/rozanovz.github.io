@@ -75,6 +75,7 @@ body {
   background: #efefef;
   height: 180px;
 }
+
 @media screen and (max-width: 450px) {
   .greyHeading {
     height: 250px;
