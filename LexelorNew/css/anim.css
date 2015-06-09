@@ -1,0 +1,29 @@
+@keyframes left {
+    0% { transform: translateX(-400px); opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes right {
+    0% { transform: translateX(400px); opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes center {
+    0% { opacity: 0; }
+/*    20% { opacity: .2; }*/
+/*    40% { opacity: .4; }*/
+/*    60% { opacity: .6; }*/
+/*    80% { opacity: .8; }*/
+    100% { opacity: 1; }
+}
+
+
+.firstPage .PageInfo1{
+    animation: left 1.5s;
+}
+
+.firstPage .PageInfo2{
+    animation: right 1.5s;
+}
+.firstPage .svg{
+    animation: center 3s;
+}
