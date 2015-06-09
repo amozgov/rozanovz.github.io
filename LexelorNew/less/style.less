@@ -7,6 +7,7 @@
 @black: #303030;
 @grey: #efefef;
 @hover: #89c2ef;
+@hoverLight: lighten(@hover, 9%);
 
 
 
@@ -28,6 +29,8 @@ body {
         transition: color .25s ease-in-out;
        -moz-transition: color .25s ease-in-out;
        -webkit-transition: color .25s ease-in-out;
+        
+        
         &:hover {
             color:@hover ;
         }
@@ -129,8 +132,12 @@ body {
             transition: color .25s ease-in-out;
        -moz-transition: color .25s ease-in-out;
        -webkit-transition: color .25s ease-in-out;
+    transition: background .25s ease-in-out;
+       -moz-transition: background .25s ease-in-out;
+       -webkit-transition: background .25s ease-in-out;
     &:hover{
         color:@black;
+        background: @hoverLight;
     }
 }
 
@@ -139,6 +146,7 @@ body {
     transition: color .25s ease-in-out;
        -moz-transition: color .25s ease-in-out;
        -webkit-transition: color .25s ease-in-out;
+    
     &:hover{
         text-decoration: none;
         color:@hover;
