@@ -2,10 +2,6 @@
   font-family: courier;
   src: url(fonts/CourierRegular.ttf);
 }
-html,
-body {
-  height: 100%;
-}
 body {
   padding-top: 140px;
   font-family: courier;
@@ -43,10 +39,15 @@ body {
   height: 100%;
 }
 .firstPage h1 {
-  font-weight: lighter;
+  font-weight: 100;
 }
 .firstPage .mainPageInfoRow {
   margin-top: 50px;
+}
+.firstPage .svg {
+  width: 72%;
+  margin-top: 4.5%;
+  margin-left: 15%;
 }
 .firstPage .beginJorney {
   background: #ffffff;
@@ -73,12 +74,24 @@ body {
   margin-top: 280px;
   margin-bottom: 50px;
   background: #efefef;
-  height: 200px;
+  height: 180px;
+  overflow: hidden;
 }
-
 @media screen and (max-width: 450px) {
   .greyHeading {
     height: 250px;
+  }
+}
+#greyHeadingContent,
+#greyHeadingContent1,
+#greyHeadingContent2 {
+  margin-top: -170px;
+}
+@media screen and (max-width: 450px) {
+  #greyHeadingContent,
+  #greyHeadingContent1,
+  #greyHeadingContent2 {
+    margin-top: -200px;
   }
 }
 .circles {

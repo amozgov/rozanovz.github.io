@@ -8,9 +8,7 @@
 @grey: #efefef;
 @hover: #89c2ef;
 
-html, body{
-    height:100%;
-}
+
 
 body { 
     padding-top: 140px; 
@@ -48,10 +46,15 @@ body {
     color:@black;
     height:100%;
     h1{
-        font-weight: lighter;
+        font-weight: 100;
     }
     .mainPageInfoRow{
         margin-top: 50px;
+    }
+    .svg{
+        width:72%;
+        margin-top: 4.5%;
+        margin-left: 15%;
     }
     .beginJorney{
         background: @white;
@@ -81,12 +84,19 @@ body {
     margin-bottom: 50px;
     background: @grey;
     height:180px;
-    
+    overflow: hidden;
     @media screen and (max-width:450px){
         height: 250px;
     }
 }
-
+#greyHeadingContent,
+#greyHeadingContent1,
+#greyHeadingContent2{
+    margin-top: -170px;
+    @media screen and (max-width:450px){
+        margin-top: -200px;
+    }
+}
 .circles{
     margin-top: 50px;
     .circle{
