@@ -25,6 +25,9 @@ body {
     padding-top: 1%;
     .nav li a {
         color: @white;
+        transition: color .25s ease-in-out;
+       -moz-transition: color .25s ease-in-out;
+       -webkit-transition: color .25s ease-in-out;
         &:hover {
             color:@hover ;
         }
@@ -120,10 +123,19 @@ body {
     color:@white;
     width:100%;
     text-align: left;
+            transition: color .25s ease-in-out;
+       -moz-transition: color .25s ease-in-out;
+       -webkit-transition: color .25s ease-in-out;
+    &:hover{
+        color:@black;
+    }
 }
 
 .footer a{
     color:@black;
+    transition: color .25s ease-in-out;
+       -moz-transition: color .25s ease-in-out;
+       -webkit-transition: color .25s ease-in-out;
     &:hover{
         text-decoration: none;
         color:@hover;

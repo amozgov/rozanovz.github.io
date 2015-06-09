@@ -19,6 +19,9 @@ body {
 }
 .navbar-inverse .nav li a {
   color: #ffffff;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
 }
 .navbar-inverse .nav li a:hover {
   color: #89c2ef;
@@ -117,9 +120,18 @@ body {
   color: #ffffff;
   width: 100%;
   text-align: left;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.bigButton:hover {
+  color: #303030;
 }
 .footer a {
   color: #303030;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
 }
 .footer a:hover {
   text-decoration: none;
