@@ -3,14 +3,12 @@
   src: url(fonts/CourierRegular.ttf);
 }
 body {
-  padding-top: 140px;
+  padding-top: 80px;
   font-family: courier;
 }
 .navbar-inverse {
   background: #303030;
-  height: 80px;
-  margin-bottom: 140px;
-  padding-top: 1%;
+  margin-bottom: 80px;
 }
 @media screen and (max-width: 769px) {
   .navbar-inverse {
@@ -40,6 +38,7 @@ body {
 .firstPage {
   color: #303030;
   height: 100%;
+  margin-bottom: 15%;
 }
 .firstPage h1 {
   font-weight: 100;
@@ -82,7 +81,7 @@ body {
 }
 .greyHeading {
   padding-top: 20px;
-  margin-top: 280px;
+  margin-top: 130px;
   margin-bottom: 50px;
   background: #efefef;
   height: 180px;
@@ -117,11 +116,11 @@ body {
   padding-top: 5%;
 }
 .bigButton {
-  padding-top: 100px;
+  padding-top: 50px;
   margin-top: 200px;
   margin-bottom: 50px;
   background: #89c2ef;
-  height: 300px;
+  height: 200px;
   color: #ffffff;
   width: 100%;
   text-align: left;
