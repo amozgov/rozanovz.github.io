@@ -6,6 +6,10 @@
   font-family: courierBold;
   src: url(../fonts/courbd.ttf);
 }
+html,
+body {
+  height: 100%;
+}
 body {
   font-family: courierNew;
   background: #f7f7f7;
@@ -17,6 +21,11 @@ body {
   border-bottom: 1px solid #686868;
   height: 80px;
   padding-top: 1%;
+}
+@media screen and (max-width: 769px) {
+  .navbar {
+    height: initial;
+  }
 }
 .navbar .navbar-nav li a:not(,btnSignIn) {
   font-family: courierBold;
@@ -44,6 +53,43 @@ body {
   -moz-transition: background 0.25s ease-in-out;
   -webkit-transition: background 0.25s ease-in-out;
 }
-.firstScroll .baloonSvg img {
-  
+.firstScroll {
+  background: url(../img/BEST1.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+}
+.firstScroll .firstScroll-heading {
+  color: #686868;
+  font-family: courierNew;
+  font-weight: 100;
+}
+.firstScroll .signButton {
+  border-radius: 0;
+  width: 55%;
+  background: none;
+  color: #686868;
+  border: 1px solid #303030;
+  font-family: courierNew;
+  margin-top: 5%;
+}
+.firstScroll .signButton:hover {
+  color: #ffffff;
+  background: #89c2ef;
+  border: 1px solid #89c2ef;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
+}
+.scrollDashed {
+  margin-top: 10%;
+}
+#secondScroll {
+  height: 180px;
+  padding-top: 3%;
+  border-top: 1px dashed #686868;
+  border-bottom: 1px dashed #686868;
 }
