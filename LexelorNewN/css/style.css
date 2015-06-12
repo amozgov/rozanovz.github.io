@@ -58,6 +58,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100%;
+  margin-bottom: 10%;
 }
 .firstScroll .firstScroll-heading {
   color: #686868;
@@ -83,9 +84,6 @@ body {
   transition: background 0.25s ease-in-out;
   -moz-transition: background 0.25s ease-in-out;
   -webkit-transition: background 0.25s ease-in-out;
-}
-.scrollDashed {
-  margin-top: 10%;
 }
 #secondScroll {
   height: 180px;
