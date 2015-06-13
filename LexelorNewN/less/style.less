@@ -139,7 +139,74 @@ h6{font-size:0.75em;}//12px
     padding-top: 3%;
     border-top:1px dashed @bgBlack;
     border-bottom:1px dashed @bgBlack;
+    margin-top: 10%;
     @media screen and (max-width:769px){
         
     }
+}
+.iconThreeContent{
+    .iconThree{
+        font-size: 1.8em;
+        vertical-align: text-bottom;
+    }
+    p{
+        font-style:courierNew;
+        color:@fontGrey;
+        font-size:0.725em;
+    }
+    .icon-check-circle-2{color:@iconGreen;}
+    .icon-undo{color: @iconRed;}
+    .icon-button-power-2{color: @iconPurple;}
+    .icon-map-direction{color: @iconBlue2;}
+    .icon-remove-circle-1{color: @iconBrown;}
+    .icon-add-circle-1{color: @iconRed;}
+}
+
+.imgCaption{
+    margin-top: 12%;
+}
+.bigButton{
+    padding-top: 50px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    background: @bgBlue2;
+    height:200px;
+    color:@fontWhite;
+    width:100%;
+    text-align: left;
+            transition: color .25s ease-in-out;
+       -moz-transition: color .25s ease-in-out;
+       -webkit-transition: color .25s ease-in-out;
+    transition: background .25s ease-in-out;
+       -moz-transition: background .25s ease-in-out;
+       -webkit-transition: background .25s ease-in-out;
+    &:hover{
+        color:@fontBlack;
+        background: @bgBlue1;
+    }
+}
+
+.footer a{
+    color:@bgBlack;
+    transition: color .25s ease-in-out;
+       -moz-transition: color .25s ease-in-out;
+       -webkit-transition: color .25s ease-in-out;
+    
+    &:hover{
+        text-decoration: none;
+        color:@fontBlue;
+    }
+}
+
+.copyright{
+    color:darkgray;
+    font-size:.7em;
+}
+
+@media screen and (max-width:769px){
+    .footer .col-sm-12 p,
+    .footer .col-sm-12 ul{
+        text-align:center;
+    }
+    
 }

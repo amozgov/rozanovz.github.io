@@ -128,4 +128,75 @@ h6 {
   padding-top: 3%;
   border-top: 1px dashed #686868;
   border-bottom: 1px dashed #686868;
+  margin-top: 10%;
+}
+.iconThreeContent .iconThree {
+  font-size: 1.8em;
+  vertical-align: text-bottom;
+}
+.iconThreeContent p {
+  font-style: courierNew;
+  color: #686868;
+  font-size: 0.725em;
+}
+.iconThreeContent .icon-check-circle-2 {
+  color: #8fd69c;
+}
+.iconThreeContent .icon-undo {
+  color: #e85657;
+}
+.iconThreeContent .icon-button-power-2 {
+  color: #9890c7;
+}
+.iconThreeContent .icon-map-direction {
+  color: #6ca4d6;
+}
+.iconThreeContent .icon-remove-circle-1 {
+  color: #796357;
+}
+.iconThreeContent .icon-add-circle-1 {
+  color: #e85657;
+}
+.imgCaption {
+  margin-top: 12%;
+}
+.bigButton {
+  padding-top: 50px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  background: #6ca4d6;
+  height: 200px;
+  color: #ffffff;
+  width: 100%;
+  text-align: left;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
+}
+.bigButton:hover {
+  color: #303030;
+  background: #89c2ef;
+}
+.footer a {
+  color: #686868;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #6ca4d6;
+}
+.copyright {
+  color: darkgray;
+  font-size: .7em;
+}
+@media screen and (max-width: 769px) {
+  .footer .col-sm-12 p,
+  .footer .col-sm-12 ul {
+    text-align: center;
+  }
 }
