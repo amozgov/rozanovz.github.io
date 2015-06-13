@@ -51,11 +51,11 @@ h6 {
     padding-top: 0;
   }
 }
-.navbar .navbar-nav li a:not(,btnSignIn) {
+.navbar .navbar-nav li a:not(.btnSignIn) {
   font-family: courierBold;
   color: #303030;
 }
-.navbar .navbar-nav li a:not(,btnSignIn):hover {
+.navbar .navbar-nav li a:not(.btnSignIn):hover {
   color: #6ca4d6;
   transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
