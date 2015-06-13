@@ -88,8 +88,8 @@ h6 {
 }
 @media screen and (max-width: 769px) {
   .firstScroll {
-    background-size: 50%;
-    padding-top: 30%;
+    background-size: 80%;
+    padding-top: 50%;
     height: initial;
     margin-bottom: 50px;
   }
