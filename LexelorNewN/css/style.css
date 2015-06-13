@@ -90,6 +90,8 @@ h6 {
   .firstScroll {
     background-size: 50%;
     padding-top: 30%;
+    height: initial;
+    margin-bottom: 50px;
   }
 }
 .firstScroll .firstScroll-heading {
