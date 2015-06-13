@@ -119,6 +119,10 @@ h6 {
   -moz-transition: background 0.25s ease-in-out;
   -webkit-transition: background 0.25s ease-in-out;
 }
+.firstScroll .btnArrows {
+  width: 45px;
+  height: 50px;
+}
 .scrollDashed {
   height: 180px;
   padding-top: 3%;
