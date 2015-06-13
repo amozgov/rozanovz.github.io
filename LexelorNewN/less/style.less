@@ -36,7 +36,17 @@ body {
     font-family:courierNew;
     background: @bgGrey;
     padding-top: 80px;
+    @media screen and (max-width:769px){
+        padding-top: 50px;
+    }
 }
+
+h1{font-size:2.25em;}//36px
+h2{font-size:1.875em;}//30px
+h3{font-size:1.5em;}//24px
+h4{font-size:1.125em;}//18px
+h5{font-size:0.875em;}//14px
+h6{font-size:0.75em;}//12px
 
 .navbar{
     background: @bgWhite;
@@ -46,6 +56,7 @@ body {
     padding-top: 1%;
     @media screen and (max-width:769px){
         height:initial;
+        padding-top: 0;
     }
     
     .navbar-nav li a:not(,btnSignIn){
@@ -77,11 +88,20 @@ body {
 }
 
 .firstScroll{
-    background: url(../img/BEST1.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
     height: 100%;
     margin-bottom: 200px;
+//    border:1px solid red;
+    background: url(../img/BEST1.svg);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: top;
+    padding-top: 25%;
+    @media screen and (max-width:769px){
+        background-size: 50%;
+        padding-top: 30%;
+    }
+    .baloonSvg{
+    }
     .firstScroll-heading{
         color:@fontGrey;
         font-family: courierNew;
