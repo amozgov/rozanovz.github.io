@@ -35,9 +35,9 @@ html, body{
 body {  
     font-family:courierNew;
     background: @bgGrey;
-    padding-top: 80px;
+    padding-top: 100px;
     @media screen and (max-width:769px){
-        padding-top: 50px;
+        padding-top: 70px;
     }
 }
 
@@ -136,7 +136,7 @@ h6{font-size:0.75em;}//12px
 }
 
 .scrollDashed{
-    height:180px;
+    height:200px;
     padding-top: 3%;
     border-top:1px dashed @bgBlack;
     border-bottom:1px dashed @bgBlack;
@@ -147,8 +147,12 @@ h6{font-size:0.75em;}//12px
         font-size: 1.8em;
         vertical-align: text-bottom;
     }
+    h3{
+        color: @fontGrey;
+        font-family:courierBold;
+    }
     p{
-        font-style:courierNew;
+        font-family:courierNew;
         color:@fontGrey;
         font-size:0.725em;
     }
@@ -162,6 +166,23 @@ h6{font-size:0.75em;}//12px
 
 .imgCaption{
     margin-top: 12%;
+    .icon-bubble-chat-information-2{
+        font-size: 1.8em;
+        color:@iconBlue1;
+    }
+}
+
+#secondScroll,
+#thirdScroll,
+#fourthScroll{
+    overflow: hidden;
+}
+.scrollContent{
+    margin-top: -200px;
+}
+
+.join{
+    margin-top: 10%;
 }
 .bigButton{
     padding-top: 50px;
@@ -182,6 +203,13 @@ h6{font-size:0.75em;}//12px
         color:@fontBlack;
         background: @bgBlue1;
     }
+    h5{
+        font-family: courierBold;
+    }
+    h3{
+        font-family: courierNew;
+        font-size:2.25em;
+    }
 }
 
 .footer a{
@@ -189,11 +217,16 @@ h6{font-size:0.75em;}//12px
     transition: color .25s ease-in-out;
        -moz-transition: color .25s ease-in-out;
        -webkit-transition: color .25s ease-in-out;
+    font-family: courierBold;
     
     &:hover{
         text-decoration: none;
         color:@fontBlue;
     }
+    .socials{
+        font-size:1.25em;
+    }
+    
 }
 
 .copyright{

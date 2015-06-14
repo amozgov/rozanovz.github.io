@@ -13,11 +13,11 @@ body {
 body {
   font-family: courierNew;
   background: #f7f7f7;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 @media screen and (max-width: 769px) {
   body {
-    padding-top: 50px;
+    padding-top: 70px;
   }
 }
 h1 {
@@ -125,7 +125,7 @@ h6 {
   height: 50px;
 }
 .scrollDashed {
-  height: 180px;
+  height: 200px;
   padding-top: 3%;
   border-top: 1px dashed #686868;
   border-bottom: 1px dashed #686868;
@@ -134,8 +134,12 @@ h6 {
   font-size: 1.8em;
   vertical-align: text-bottom;
 }
+.iconThreeContent h3 {
+  color: #686868;
+  font-family: courierBold;
+}
 .iconThreeContent p {
-  font-style: courierNew;
+  font-family: courierNew;
   color: #686868;
   font-size: 0.725em;
 }
@@ -160,6 +164,21 @@ h6 {
 .imgCaption {
   margin-top: 12%;
 }
+.imgCaption .icon-bubble-chat-information-2 {
+  font-size: 1.8em;
+  color: #89c2ef;
+}
+#secondScroll,
+#thirdScroll,
+#fourthScroll {
+  overflow: hidden;
+}
+.scrollContent {
+  margin-top: -200px;
+}
+.join {
+  margin-top: 10%;
+}
 .bigButton {
   padding-top: 50px;
   margin-top: 200px;
@@ -180,15 +199,26 @@ h6 {
   color: #303030;
   background: #89c2ef;
 }
+.bigButton h5 {
+  font-family: courierBold;
+}
+.bigButton h3 {
+  font-family: courierNew;
+  font-size: 2.25em;
+}
 .footer a {
   color: #686868;
   transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out;
+  font-family: courierBold;
 }
 .footer a:hover {
   text-decoration: none;
   color: #6ca4d6;
+}
+.footer a .socials {
+  font-size: 1.25em;
 }
 .copyright {
   color: darkgray;
