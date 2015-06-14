@@ -1,0 +1,137 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.ttf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.ttf);
+}
+.mainPage .firstScroll {
+  margin-top: .01%;
+  height: 100%;
+  margin-bottom: 200px;
+  background: url(../img/BEST1.svg);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: top;
+  padding-top: 25%;
+}
+@media screen and (max-width: 769px) {
+  .mainPage .firstScroll {
+    background-size: 80%;
+    padding-top: 50%;
+    height: initial;
+    margin-bottom: 50px;
+  }
+}
+.mainPage .firstScroll .firstScroll-heading {
+  color: #686868;
+  font-family: courierNew;
+  font-weight: 100;
+}
+.mainPage .firstScroll .signButton {
+  border-radius: 0;
+  width: 55%;
+  background: none;
+  color: #686868;
+  border: 1px solid #303030;
+  font-family: courierNew;
+  margin-top: 5%;
+}
+.mainPage .firstScroll .signButton:hover {
+  color: #ffffff;
+  background: #89c2ef;
+  border: 1px solid #89c2ef;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
+}
+.mainPage .firstScroll .btnArrows {
+  width: 45px;
+  height: 50px;
+}
+.mainPage .scrollDashed {
+  height: 200px;
+  padding-top: 3%;
+  border-top: 1px dashed #686868;
+  border-bottom: 1px dashed #686868;
+}
+.mainPage .iconThreeContent .iconThree {
+  font-size: 1.8em;
+  vertical-align: text-bottom;
+}
+.mainPage .iconThreeContent h3 {
+  color: #686868;
+  font-family: courierBold;
+}
+.mainPage .iconThreeContent p {
+  font-family: courierNew;
+  color: #686868;
+  font-size: 0.725em;
+}
+.mainPage .iconThreeContent .icon-check-circle-2 {
+  color: #8fd69c;
+}
+.mainPage .iconThreeContent .icon-undo {
+  color: #e85657;
+}
+.mainPage .iconThreeContent .icon-button-power-2 {
+  color: #9890c7;
+}
+.mainPage .iconThreeContent .icon-map-direction {
+  color: #6ca4d6;
+}
+.mainPage .iconThreeContent .icon-remove-circle-1 {
+  color: #796357;
+}
+.mainPage .iconThreeContent .icon-add-circle-1 {
+  color: #e85657;
+}
+.mainPage .imgCaption {
+  margin-top: 12%;
+}
+.mainPage .imgCaption .icon-bubble-chat-information-2 {
+  font-size: 1.8em;
+  color: #89c2ef;
+}
+.mainPage #secondScroll,
+.mainPage #thirdScroll,
+.mainPage #fourthScroll {
+  overflow: hidden;
+}
+.mainPage .scrollContent {
+  margin-top: -200px;
+}
+.mainPage .join {
+  margin-top: 10%;
+}
+.mainPage .bigButton {
+  padding-top: 50px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  background: #6ca4d6;
+  height: 200px;
+  color: #ffffff;
+  width: 100%;
+  text-align: left;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
+}
+.mainPage .bigButton:hover {
+  color: #303030;
+  background: #89c2ef;
+}
+.mainPage .bigButton h5 {
+  font-family: courierBold;
+}
+.mainPage .bigButton h3 {
+  font-family: courierNew;
+  font-size: 2.25em;
+}

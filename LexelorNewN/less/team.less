@@ -1,0 +1,35 @@
+@import "fonts-colors.less";
+
+html, body{
+    height:100%;
+}
+
+.teamPage{
+    .team{
+        margin-top: -10px;
+        margin-bottom: 50px;
+        .profileLinks{
+            a{
+                font-size:1.575em;
+                text-decoration: none;
+                color:@bgBlack;
+                transition: color .25s ease-in-out;
+                   -moz-transition: color .25s ease-in-out;
+                   -webkit-transition: color .25s ease-in-out;
+                font-family: courierBold;
+
+                &:hover{
+                    text-decoration: none;
+                    color:@fontBlue;
+                }
+            }
+        }
+        img{
+            width:20%;
+        }
+        .position{
+            color:@fontGrey;
+        }
+    }
+    
+}
