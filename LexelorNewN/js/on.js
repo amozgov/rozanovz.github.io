@@ -5,15 +5,15 @@
 
 
 document.addEventListener('DOMContentLoaded', function () {
-  particleground(document.getElementById('greyHeading'), {
+  particleground(document.getElementById('secondScroll'), {
     dotColor: 'dimgray',
     lineColor: 'dimgray'
   });
-  particleground(document.getElementById('greyHeading1'), {
+  particleground(document.getElementById('thirdScroll'), {
     dotColor: 'dimgray',
     lineColor: 'dimgray'
   });
-  particleground(document.getElementById('greyHeading2'), {
+  particleground(document.getElementById('fourthScroll'), {
     dotColor: 'dimgray',
     lineColor: 'dimgray'
   });
