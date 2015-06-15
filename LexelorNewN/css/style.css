@@ -42,8 +42,6 @@ h6 {
   background: #ffffff;
   box-shadow: none;
   border-bottom: 1px solid #686868;
-  height: 80px;
-  padding-top: 1%;
 }
 @media screen and (max-width: 769px) {
   .navbar {
@@ -64,8 +62,11 @@ h6 {
 .navbar .navbar-nav li .btnSignIn {
   border-radius: 0;
   width: 200px;
+  height: 40px;
+  margin-top: 2.5%;
   border: 1px solid #89c2ef;
   font-family: courierBold;
+  padding: 5%;
 }
 .navbar .navbar-nav li .btnSignIn:hover {
   color: #ffffff;

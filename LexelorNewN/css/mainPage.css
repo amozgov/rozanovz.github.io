@@ -37,6 +37,7 @@
   border: 1px solid #303030;
   font-family: courierNew;
   margin-top: 5%;
+  background: bgWhite;
 }
 .mainPage .firstScroll .signButton:hover {
   color: #ffffff;
@@ -70,6 +71,7 @@
   font-family: courierBold;
 }
 .mainPage .iconThreeContent p {
+  margin-top: 5%;
   font-family: courierNew;
   color: #686868;
   font-size: 0.725em;
@@ -92,6 +94,9 @@
 .mainPage .iconThreeContent .icon-add-circle-1 {
   color: #e85657;
 }
+.mainPage .imgContent img {
+  width: 100%;
+}
 .mainPage .imgCaption {
   margin-top: 12%;
 }
@@ -108,7 +113,7 @@
   margin-top: -200px;
 }
 .mainPage .join {
-  margin-top: 10%;
+  margin-top: 20%;
 }
 .mainPage .bigButton {
   padding-top: 50px;
