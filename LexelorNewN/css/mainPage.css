@@ -62,6 +62,8 @@
 .mainPage .iconThreeContent .iconThree {
   font-size: 1.8em;
   vertical-align: text-bottom;
+  position: relative;
+  bottom: -17px;
 }
 .mainPage .iconThreeContent h3 {
   color: #686868;
