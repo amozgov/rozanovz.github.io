@@ -10,8 +10,15 @@ html,
 body {
   height: 100%;
 }
+.teamPage #team {
+  margin-top: -3.6%;
+  padding: 6.5%;
+}
+.teamPage #team h2 {
+  margin-top: 0;
+}
 .teamPage .team {
-  margin-top: -10px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 .teamPage .team .profileLinks a {
@@ -22,6 +29,7 @@ body {
   -moz-transition: color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out;
   font-family: courierBold;
+  padding-left: 3%;
 }
 .teamPage .team .profileLinks a:hover {
   text-decoration: none;
@@ -32,4 +40,11 @@ body {
 }
 .teamPage .team .position {
   color: #686868;
+}
+.teamPage .team .AlexR {
+  margin-top: .6%;
+}
+.teamPage .team .AntonS,
+.teamPage .team .DmitryS {
+  margin-top: 1%;
 }

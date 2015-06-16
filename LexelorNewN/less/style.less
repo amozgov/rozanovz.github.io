@@ -35,8 +35,9 @@ h6{font-size:0.75em;}//12px
     .navbar-nav li a:not(.btnSignIn){
         font-family:courierBold;
         color: @fontBlack;
+        font-size:0.875em;
         &:hover{
-            color:@fontBlue;
+            color:@fontBlue1;
             transition: color .25s ease-in-out;
             -moz-transition: color .25s ease-in-out;
             -webkit-transition: color .25s ease-in-out;
@@ -63,6 +64,14 @@ h6{font-size:0.75em;}//12px
     }
 }
 
+.scrollDashed{
+        height:200px;
+        padding-top: 17%;
+        border-top:1px dashed @bgBlack;
+        border-bottom:1px dashed @bgBlack;
+    //    margin-top: 10%;
+    }
+
 .footer a{
     color:@bgBlack;
     transition: color .25s ease-in-out;
@@ -72,12 +81,16 @@ h6{font-size:0.75em;}//12px
     
     &:hover{
         text-decoration: none;
-        color:@fontBlue;
+        color:@fontBlue1;
     }
     .socials{
         font-size:1.25em;
     }
-    
+    .socials,
+    .footerIcons{
+        position:relative;
+        bottom:-13%;        
+    }
 }
 
 .copyright{

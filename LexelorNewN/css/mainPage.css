@@ -41,8 +41,8 @@
 }
 .mainPage .firstScroll .signButton:hover {
   color: #ffffff;
-  background: #89c2ef;
-  border: 1px solid #89c2ef;
+  background: #1d81e2;
+  border: 1px solid #1d81e2;
   transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out;
@@ -53,22 +53,17 @@
 .mainPage .firstScroll .btnArrows {
   width: 45px;
   height: 50px;
-}
-.mainPage .scrollDashed {
-  height: 200px;
-  padding-top: 3%;
-  border-top: 1px dashed #686868;
-  border-bottom: 1px dashed #686868;
+  margin-top: 2.9%;
 }
 .mainPage .iconThreeContent .iconThree {
-  font-size: 1.8em;
+  font-size: 1.5em;
   vertical-align: text-bottom;
   position: relative;
-  bottom: -17px;
+  bottom: -11px;
 }
 .mainPage .iconThreeContent h3 {
   color: #686868;
-  font-family: courierBold;
+  font-family: courierNew;
 }
 .mainPage .iconThreeContent p {
   margin-top: 5%;
@@ -102,12 +97,7 @@
 }
 .mainPage .imgCaption .icon-bubble-chat-information-2 {
   font-size: 1.8em;
-  color: #89c2ef;
-}
-.mainPage #secondScroll,
-.mainPage #thirdScroll,
-.mainPage #fourthScroll {
-  overflow: hidden;
+  color: #1d81e2;
 }
 .mainPage .scrollContent {
   margin-top: -200px;
@@ -133,7 +123,7 @@
 }
 .mainPage .bigButton:hover {
   color: #303030;
-  background: #89c2ef;
+  background: #1d81e2;
 }
 .mainPage .bigButton h5 {
   font-family: courierBold;

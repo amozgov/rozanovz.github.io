@@ -52,9 +52,10 @@ h6 {
 .navbar .navbar-nav li a:not(.btnSignIn) {
   font-family: courierBold;
   color: #303030;
+  font-size: 0.875em;
 }
 .navbar .navbar-nav li a:not(.btnSignIn):hover {
-  color: #6ca4d6;
+  color: #1d81e2;
   transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out;
@@ -64,19 +65,25 @@ h6 {
   width: 200px;
   height: 40px;
   margin-top: 2.5%;
-  border: 1px solid #89c2ef;
+  border: 1px solid #1d81e2;
   font-family: courierBold;
   padding: 5%;
 }
 .navbar .navbar-nav li .btnSignIn:hover {
   color: #ffffff;
-  background: #89c2ef;
+  background: #1d81e2;
   transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out;
   transition: background 0.25s ease-in-out;
   -moz-transition: background 0.25s ease-in-out;
   -webkit-transition: background 0.25s ease-in-out;
+}
+.scrollDashed {
+  height: 200px;
+  padding-top: 17%;
+  border-top: 1px dashed #686868;
+  border-bottom: 1px dashed #686868;
 }
 .footer a {
   color: #686868;
@@ -87,10 +94,15 @@ h6 {
 }
 .footer a:hover {
   text-decoration: none;
-  color: #6ca4d6;
+  color: #1d81e2;
 }
 .footer a .socials {
   font-size: 1.25em;
+}
+.footer a .socials,
+.footer a .footerIcons {
+  position: relative;
+  bottom: -13%;
 }
 .copyright {
   color: darkgray;
