@@ -42,12 +42,22 @@ h6 {
   background: #ffffff;
   box-shadow: none;
   border-bottom: 1px solid #686868;
+  height: 80px;
+  padding-top: 1%;
 }
 @media screen and (max-width: 769px) {
   .navbar {
     height: initial;
     padding-top: 0;
   }
+}
+.navbar .navbar-brand {
+  background: url(../img/lexelor.svg) no-repeat;
+  background-position: center;
+  width: 150px;
+}
+.navbar .navbar-nav li {
+  border-bottom: 1px solid #f7f7f7;
 }
 .navbar .navbar-nav li a:not(.btnSignIn) {
   font-family: courierBold;
@@ -62,12 +72,13 @@ h6 {
 }
 .navbar .navbar-nav li .btnSignIn {
   border-radius: 0;
-  width: 200px;
-  height: 40px;
-  margin-top: 2.5%;
+  width: 150px;
+  height: 30px;
+  margin-top: 6.5%;
   border: 1px solid #1d81e2;
   font-family: courierBold;
-  padding: 5%;
+  padding: 0%;
+  padding-top: 2.5%;
 }
 .navbar .navbar-nav li .btnSignIn:hover {
   color: #ffffff;
@@ -79,11 +90,23 @@ h6 {
   -moz-transition: background 0.25s ease-in-out;
   -webkit-transition: background 0.25s ease-in-out;
 }
+@media screen and (max-width: 769px) {
+  .navbar .navbar-nav li .btnSignIn {
+    margin-top: 0;
+    padding-top: .5%;
+  }
+}
 .scrollDashed {
   height: 200px;
-  padding-top: 17%;
   border-top: 1px dashed #686868;
   border-bottom: 1px dashed #686868;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.footer {
+  background: #ffffff;
+  border-top: 1px solid #686868;
+  padding-top: 2%;
 }
 .footer a {
   color: #686868;
@@ -105,6 +128,7 @@ h6 {
   bottom: -13%;
 }
 .copyright {
+  background: #ffffff;
   color: darkgray;
   font-size: .7em;
 }
