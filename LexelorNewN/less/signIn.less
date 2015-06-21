@@ -1,0 +1,64 @@
+@import "fonts-colors.less";
+.navbar{
+  border:none;
+}
+.signPage{
+  background:@bgWhite;
+    header {
+    margin-top: -100px;
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+//    text-align: center;
+      h1{
+        color:@fontBlack;
+      }
+      .form-group{
+        label{
+          width:100%;
+          color: @fontGrey;
+          .text-right{
+            float:right;
+          }
+          a{
+            color:@fontGrey;
+            &:hover{
+              text-decoration: none;
+            }
+          }
+        }
+        .forgot{
+          color:@fontBlack;
+        }
+        input{
+          border:none;
+          border-bottom: 1px solid @bgGrey;
+          border-radius:0;
+          height:60px;
+        }
+        input:focus{
+            outline:none;
+            border-left:3px solid @bgBlue1;
+        }
+      }
+      
+      
+  }
+  
+  
+}

@@ -60,7 +60,7 @@ h6 {
   border-bottom: 1px solid #f7f7f7;
 }
 .navbar .navbar-nav li a:not(.btnSignIn) {
-  font-family: courierBold;
+  font-family: courierNew;
   color: #303030;
   font-size: 0.875em;
 }
