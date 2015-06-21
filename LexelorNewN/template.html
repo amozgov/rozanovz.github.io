@@ -32,12 +32,47 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<!--
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>    
+-->
+         
+         <div id="hamburger" class="hamburglar">
+
+            <div class="burger-icon">
+              <div class="burger-container">
+                <span class="burger-bun-top"></span>
+                <span class="burger-filling"></span>
+                <span class="burger-bun-bot"></span>
+              </div>
+            </div>
+
+            <!-- svg ring containter -->
+            <div class="burger-ring">
+              <svg class="svg-ring">
+                  <path class="path" fill="none" stroke="black" stroke-miterlimit="5" stroke-width="2" d="M 17 1 C 8.15 1 1 8.15 1 17 s 7.15 16 16 16 s 16 -7.15 16 -16 S 25.85 1 17 1" />
+              </svg>
+            </div>
+            <!-- the masked path that animates the fill to the ring -->
+
+                <svg width="0" height="0">
+               <mask id="mask">
+            <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-miterlimit="10" stroke-width="4" d="M 17 1 c 5.8 0 10.9 3.1 13.7 7.75 c 1.45 2.4 2.5 8.25 -4.7 8.25 h -2" />
+               </mask>
+             </svg>
+            <div class="path-burger">
+              <div class="animate-path">
+                <div class="path-rotation"></div>
+              </div>
+            </div>
+
+          </div>
+         
+         
           </button>
-          <a class="navbar-brand" href="#">Lexelor</a>
+          <a class="navbar-brand" href="index.html"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
