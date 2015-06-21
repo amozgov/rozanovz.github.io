@@ -6,29 +6,45 @@
   font-family: courierBold;
   src: url(../fonts/courbd.ttf);
 }
-
-@media screen and (max-width: 769px) {
-  .mainPage  {
-    background-size: 80%;
-    padding-top: 50%;
-    height: initial;
-    margin-bottom: 50px;
-  }
-}
-.mainPage  .firstScroll-heading {
+.mainPage .firstScroll-heading {
   color: #686868;
   font-family: courierNew;
   font-weight: 100;
+  position: relative;
+  top: 33%;
 }
-.mainPage  .signButton {
+@media screen and (max-width: 769px) {
+  .mainPage .firstScroll-heading {
+    top: 28%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mainPage .firstScroll-heading {
+    top: 15%;
+  }
+}
+.mainPage .signButton {
   border-radius: 0;
-  width: 200%;
+  width: 15%;
   background: none;
   color: #686868;
   border: 1px solid #303030;
   font-family: courierNew;
-  margin-top: 5%;
-  background: bgWhite;
+  background: #ffffff;
+  position: relative;
+  top: 35%;
+}
+@media screen and (max-width: 769x) {
+  .mainPage .signButton {
+    width: 35%;
+    top: 20%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mainPage .signButton {
+    width: 35%;
+    top: 20%;
+  }
 }
 .mainPage .signButton:hover {
   color: #ffffff;
@@ -45,6 +61,8 @@
   width: 45px;
   height: 50px;
   margin-top: 2.9%;
+  position: relative;
+  top: 33%;
 }
 .mainPage .iconThreeContent .iconThree {
   font-size: 1.5em;

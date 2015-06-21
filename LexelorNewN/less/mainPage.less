@@ -3,54 +3,54 @@
 
 .mainPage{
  
-    .firstScroll{
-        margin-top:.01%;
-        height: 100%;
-        margin-bottom: 200px;
-    //    border:1px solid red;
-        background: url(../img/BEST1.svg);
-        background-repeat: no-repeat;
-        background-size: 45%;
-        background-position: top;
-        padding-top: 25%;
-        @media screen and (max-width:769px){
-            background-size: 80%;
-            padding-top: 50%;
-            height:initial;
-            margin-bottom: 50px;
+    .firstScroll-heading{
+        color:@fontGrey;
+        font-family: courierNew;
+        font-weight: 100;
+      position: relative;
+      top:33%;
+      @media screen and (max-width:769px){
+          top:28%;
+      }@media screen and (max-width:400px){
+          top:15%;
+      }
+    }
+    .signButton{
+        border-radius:0;
+        width:15%;
+        background: none;
+        color:@fontGrey;
+        border:1px solid @bgBlack2;
+        font-family: courierNew;
+        background: @bgWhite;
+      position: relative;
+      top:35%;
+      @media screen and (max-width:769x){
+          width:35%;
+        top:20%;
+      }@media screen and (max-width:400px){
+          width:35%;
+        top:20%;
+      }
+        &:hover{
+            color:@fontWhite;
+            background: @bgBlue1;
+            border:1px solid @bgBlue1;
+            transition: color .25s ease-in-out;
+            -moz-transition: color .25s ease-in-out;
+            -webkit-transition: color .25s ease-in-out;
+            transition: background .25s ease-in-out;
+            -moz-transition: background .25s ease-in-out;
+            -webkit-transition: background .25s ease-in-out;
         }
-        .firstScroll-heading{
-            color:@fontGrey;
-            font-family: courierNew;
-            font-weight: 100;
-        }
-        .signButton{
-            border-radius:0;
-            width:55%;
-            background: none;
-            color:@fontGrey;
-            border:1px solid @bgBlack2;
-            font-family: courierNew;
-            margin-top:5%;
-            background: bgWhite;
-            &:hover{
-                color:@fontWhite;
-                background: @bgBlue1;
-                border:1px solid @bgBlue1;
-                transition: color .25s ease-in-out;
-                -moz-transition: color .25s ease-in-out;
-                -webkit-transition: color .25s ease-in-out;
-                transition: background .25s ease-in-out;
-                -moz-transition: background .25s ease-in-out;
-                -webkit-transition: background .25s ease-in-out;
-            }
-        }
-        .btnArrows{
-    //        border:1px solid red;
-            width: 45px;
-            height: 50px;
-            margin-top: 2.9%;
-        }
+    }
+    .btnArrows{
+//        border:1px solid red;
+        width: 45px;
+        height: 50px;
+        margin-top: 2.9%;
+      position: relative;
+      top:33%;
     }
 
     
