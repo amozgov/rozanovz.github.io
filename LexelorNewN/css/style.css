@@ -6,10 +6,6 @@
   font-family: courierBold;
   src: url(../fonts/courbd.ttf);
 }
-html,
-body {
-  height: 100%;
-}
 body {
   font-family: courierNew;
   background: #f7f7f7;
@@ -65,7 +61,6 @@ h6 {
   font-size: 0.875em;
 }
 .navbar .navbar-nav li a:not(.btnSignIn):hover {
-  color: #1d81e2;
   transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out;
@@ -144,4 +139,22 @@ h6 {
   .footer .col-sm-12 ul {
     text-align: center;
   }
+}
+.icon-logo-circle-facebook:hover {
+  color: #3b5998;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.icon-logo-circle-google-plus:hover {
+  color: #d34836;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.icon-logo-circle-twitter-bird:hover {
+  color: #55acee;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
 }

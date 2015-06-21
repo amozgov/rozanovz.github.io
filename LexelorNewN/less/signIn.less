@@ -25,6 +25,13 @@
         -ms-flex-align: center;
             align-items: center;
 //    text-align: center;
+      @media screen and (max-width:769px){
+        margin-top: -140px;
+      }
+      @media screen and (max-height:560px){
+        margin-top: -40px;
+        border:1px solid red;
+      }
       h1{
         color:@fontBlack;
       }
@@ -57,7 +64,30 @@
         }
       }
       
-      
+      .facebook{
+        @media screen and (max-width:365px){
+          width:100%;
+          text-align: left;
+        }
+        .icon-logo-circle-facebook{
+          font-size:2em;
+          position: relative;
+          top:9px;
+        }
+      }
+      .submit{
+        width:100%;
+        height:60px;
+        border: none;
+        border-radius:0;
+        background: #1d81e2;
+        color: white;
+        font-family: courierNew;
+        font-size: 1.6em;
+        &:hover{
+          opacity: .9;
+        }
+      }
   }
   
   

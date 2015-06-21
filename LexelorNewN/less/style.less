@@ -1,9 +1,6 @@
 // out: ../css2/style.css
 @import "fonts-colors.less";
 
-html, body{
-    height:100%;
-}
 
 body {  
     font-family:courierNew;
@@ -45,10 +42,7 @@ h6{font-size:0.75em;}//12px
         color: @fontBlack;
         font-size:0.875em;
         &:hover{
-            color:@fontBlue1;
-            transition: color .25s ease-in-out;
-            -moz-transition: color .25s ease-in-out;
-            -webkit-transition: color .25s ease-in-out;
+          .transition;
         }
     }
     .navbar-toggle{
@@ -70,12 +64,8 @@ h6{font-size:0.75em;}//12px
         &:hover{
             color:@fontWhite;
             background: @bgBlue1;
-            transition: color .25s ease-in-out;
-            -moz-transition: color .25s ease-in-out;
-            -webkit-transition: color .25s ease-in-out;
-            transition: background .25s ease-in-out;
-            -moz-transition: background .25s ease-in-out;
-            -webkit-transition: background .25s ease-in-out;
+            .transition;
+            .transitionBg;
         }
         @media screen and (max-width:769px){
             margin-top: 0;
@@ -99,9 +89,7 @@ h6{font-size:0.75em;}//12px
     padding-top: 2%;
         a{
         color:@bgBlack;
-        transition: color .25s ease-in-out;
-           -moz-transition: color .25s ease-in-out;
-           -webkit-transition: color .25s ease-in-out;
+        .transition;
         font-family: courierBold;
 
         &:hover{
@@ -132,4 +120,16 @@ h6{font-size:0.75em;}//12px
     }
     
 }
+.icon-logo-circle-facebook:hover{
+  color:#3b5998;
+  .transition;
+}
+.icon-logo-circle-google-plus:hover{
+  color:#d34836;
+  .transition;
+}
 
+.icon-logo-circle-twitter-bird:hover{
+  color:#55acee;
+  .transition;
+}

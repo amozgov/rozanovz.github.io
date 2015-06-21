@@ -33,6 +33,17 @@
   -ms-flex-align: center;
   align-items: center;
 }
+@media screen and (max-width: 769px) {
+  .signPage header {
+    margin-top: -140px;
+  }
+}
+@media screen and (max-height: 560px) {
+  .signPage header {
+    margin-top: -40px;
+    border: 1px solid red;
+  }
+}
 .signPage header h1 {
   color: #303030;
 }
@@ -61,4 +72,28 @@
 .signPage header .form-group input:focus {
   outline: none;
   border-left: 3px solid #1d81e2;
+}
+@media screen and (max-width: 365px) {
+  .signPage header .facebook {
+    width: 100%;
+    text-align: left;
+  }
+}
+.signPage header .facebook .icon-logo-circle-facebook {
+  font-size: 2em;
+  position: relative;
+  top: 9px;
+}
+.signPage header .submit {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 0;
+  background: #1d81e2;
+  color: white;
+  font-family: courierNew;
+  font-size: 1.6em;
+}
+.signPage header .submit:hover {
+  opacity: .9;
 }
