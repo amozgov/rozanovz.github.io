@@ -73,6 +73,9 @@
 }
 .signPage header .form-group input:focus {
   outline: none;
+  box-shadow: none;
+}
+.signPage header .hasFocus {
   border-left: 3px solid #1d81e2;
 }
 @media screen and (max-width: 365px) {

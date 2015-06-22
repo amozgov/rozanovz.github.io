@@ -57,13 +57,16 @@
           border-bottom: 1px solid @greyLight;
           border-radius:0;
           height:60px;
-        }
-        input:focus{
+          &:focus {
             outline:none;
-            border-left:3px solid @blueLight;
+            box-shadow: none;
+          }
         }
+        
       }
-      
+      .hasFocus{
+        border-left:3px solid @blueLight;
+      }
       .facebook{
         @media screen and (max-width:365px){
           width:100%;
