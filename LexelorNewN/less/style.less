@@ -1,15 +1,4 @@
-// out: ../css2/style.css
 @import "fonts-colors.less";
-
-
-body {  
-    font-family:courierNew;
-    background: @bgGrey;
-    padding-top: 100px;
-    @media screen and (max-width:769px){
-        padding-top: 70px;
-    }
-}
 
 h1{font-size:2.25em;}//36px
 h2{font-size:1.875em;}//30px
@@ -18,11 +7,19 @@ h4{font-size:1.125em;}//18px
 h5{font-size:0.875em;}//14px
 h6{font-size:0.75em;}//12px
 
+body {  
+    font-family:courierNew;
+    background: @greyLight;
+    padding-top: 100px;
+    @media screen and (max-width:769px){
+        padding-top: 70px;
+    }
+}
 
 .navbar{
-    background: @bgWhite;
+    background: @white;
     box-shadow: none;
-    border-bottom: 1px solid @bgBlack;
+    border-bottom: 1px solid @black;
     height:80px;
     padding-top: 1%;
     @media screen and (max-width:769px){
@@ -35,11 +32,11 @@ h6{font-size:0.75em;}//12px
         width:150px;
     }
     .navbar-nav li{
-        border-bottom: 1px solid @bgGrey;
+        border-bottom: 1px solid @greyLight;
     }
     .navbar-nav li a:not(.btnSignIn){
         font-family:courierNew;
-        color: @fontBlack;
+        color: @black;
         font-size:0.875em;
         &:hover{
           .transition;
@@ -57,13 +54,13 @@ h6{font-size:0.75em;}//12px
         width:150px;
         height:30px;
         margin-top: 6.5%;
-        border: 1px solid @bgBlue1;
+        border: 1px solid @blueLight;
         font-family:courierBold;
         padding:0%;
         padding-top: 2.5%;
         &:hover{
-            color:@fontWhite;
-            background: @bgBlue1;
+            color:@white;
+            background: @blueLight;
             .transition;
             .transitionBg;
         }
@@ -75,42 +72,58 @@ h6{font-size:0.75em;}//12px
 }
 
 .scrollDashed{
-        height:200px;
-//        padding-top: 17%;
-        border-top:1px dashed @bgBlack;
-        border-bottom:1px dashed @bgBlack;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-
-.footer{
-    background: @bgWhite;
-    border-top: 1px solid @bgBlack;
-    padding-top: 2%;
-        a{
-        color:@bgBlack;
-        .transition;
-        font-family: courierBold;
-
-        &:hover{
-            text-decoration: none;
-            color:@fontBlue1;
-        }
-        .socials{
-            font-size:1.25em;
-        }
-        .socials,
-        .footerIcons{
-            position:relative;
-            bottom:-13%;        
-        }
-    }
+    height:200px;
+    border-top:1px dashed @black;
+    border-bottom:1px dashed @black;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-.copyright{
-    background: @bgWhite;
-    color:darkgray;
-    font-size:.7em;
+.footer{
+    background: @white;
+    border-top: 1px solid @black;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    a{
+        color:@black;
+        .transition;
+        font-family: courierNew;
+        &:hover{
+            text-decoration: none;
+            color:@blueLight;
+        }
+        .socials{
+            font-size:1.2em;
+        }
+    }
+    .icon-logo-facebook:hover{
+        color:@iconFb;
+        .transition;
+    }
+    .icon-logo-google-plus-1:hover{
+        color:@iconGp;
+        .transition;
+    }
+
+    .icon-logo-twitter-bird:hover{
+        color:@iconTw;
+        .transition;
+    }
+    .copyright{
+        background: @white;
+        color:darkgray;
+        font-size:.7em;
+        .text-underline{
+            text-decoration:underline;
+            font-size:1.2em;
+            color: @black;
+            font-family: courierBold;
+        }
+    }
+    .second{
+        margin-top: 2%;
+    }
+    
 }
 
 @media screen and (max-width:769px){
@@ -120,16 +133,4 @@ h6{font-size:0.75em;}//12px
     }
     
 }
-.icon-logo-circle-facebook:hover{
-  color:#3b5998;
-  .transition;
-}
-.icon-logo-circle-google-plus:hover{
-  color:#d34836;
-  .transition;
-}
 
-.icon-logo-circle-twitter-bird:hover{
-  color:#55acee;
-  .transition;
-}

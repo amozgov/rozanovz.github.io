@@ -16,9 +16,8 @@
     <link href="css/lexelor.css" rel="stylesheet">
     <link href="css/arrows.css" rel="stylesheet">
     <link href="css/team.css" rel="stylesheet">
-    <link href="css/one.css" rel="stylesheet">
     <link href="css/buttons.css" rel="stylesheet">
-
+<!--    <link href="css/lexelor-filled.css" rel="stylesheet">-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,68 +26,55 @@
     <![endif]-->
   </head>
   <body class="teamPage">
-    
-    
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-<!--
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>    
--->
-         
-         <div id="hamburger" class="hamburglar">
+        <div class="container-fluid">
+            <div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 
-            <div class="burger-icon">
-              <div class="burger-container">
-                <span class="burger-bun-top"></span>
-                <span class="burger-filling"></span>
-                <span class="burger-bun-bot"></span>
-              </div>
+                        <div id="hamburger" class="hamburglar">
+                            <div class="burger-icon">
+                                <div class="burger-container">
+                                    <span class="burger-bun-top"></span>
+                                    <span class="burger-filling"></span>
+                                    <span class="burger-bun-bot"></span>
+                                </div>
+                            </div>
+                            <!-- svg ring containter -->
+                            <div class="burger-ring">
+                                <svg class="svg-ring">
+                                    <path class="path" fill="none" stroke="black" stroke-miterlimit="5" stroke-width="2" d="M 17 1 C 8.15 1 1 8.15 1 17 s 7.15 16 16 16 s 16 -7.15 16 -16 S 25.85 1 17 1" />
+                                </svg>
+                            </div>
+                            <!-- the masked path that animates the fill to the ring -->
+                            <svg width="0" height="0">
+                                <mask id="mask">
+                                    <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-miterlimit="10" stroke-width="4" d="M 17 1 c 5.8 0 10.9 3.1 13.7 7.75 c 1.45 2.4 2.5 8.25 -4.7 8.25 h -2" />
+                                </mask>
+                            </svg>
+                            <div class="path-burger">
+                                <div class="animate-path">
+                                    <div class="path-rotation"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </button>
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" class="icon-email-send-1"> Using Lexelor</a></li>
+                        <li><a href="#" class="icon-cog-double-1"> How it works</a></li>
+                        <li><a href="#" class="icon-add-circle-1"> Sign up</a></li>
+                        <li><a href="#" class="btn btnSignIn"> Sign in</a></li>
+                    </ul>
+                </div>
             </div>
-
-            <!-- svg ring containter -->
-            <div class="burger-ring">
-              <svg class="svg-ring">
-                  <path class="path" fill="none" stroke="black" stroke-miterlimit="5" stroke-width="2" d="M 17 1 C 8.15 1 1 8.15 1 17 s 7.15 16 16 16 s 16 -7.15 16 -16 S 25.85 1 17 1" />
-              </svg>
-            </div>
-            <!-- the masked path that animates the fill to the ring -->
-
-                <svg width="0" height="0">
-               <mask id="mask">
-            <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-miterlimit="10" stroke-width="4" d="M 17 1 c 5.8 0 10.9 3.1 13.7 7.75 c 1.45 2.4 2.5 8.25 -4.7 8.25 h -2" />
-               </mask>
-             </svg>
-            <div class="path-burger">
-              <div class="animate-path">
-                <div class="path-rotation"></div>
-              </div>
-            </div>
-
-          </div>
-         
-         
-          </button>
-          <a class="navbar-brand" href="index.html"></a>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"> Using Lexelor</a></li>
-            <li><a href="#"> How it works</a></li>
-            <li><a href="#"> Sign up</a></li>
-            <li><a href="signIn.html" class="btn btnSignIn"> Sign in</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-        </div>
-      </div><!-- /.container-fluid -->
     </nav>
     
     <div class="container-fluid scrollDashed hidden-sm hidden-xs" id="team">
@@ -157,20 +143,6 @@
                     </figcaption>
                 </figure>
             </div>
-            <!--<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center AntonS">-->
-            <!--    <figure>-->
-            <!--        <p><img src="img/team/anton_s.svg" alt="" class="img-responsive center-block"></p>-->
-            <!--        <figcaption>-->
-            <!--            <h4>Anton Shershnov</h4>-->
-            <!--            <p class="position">Frontend developer</p>-->
-            <!--            <p class="profileLinks">-->
-            <!--                <a href=""><i class="icon-logo-circle-email"></i></a>-->
-            <!--                <a href=""><i class="icon-logo-circle-linkedin"></i></a>-->
-            <!--                <a href="https://twitter.com/lexelorx"><i class="icon-logo-circle-twitter-bird socials"></i></a>-->
-            <!--            </p>-->
-            <!--        </figcaption>-->
-            <!--    </figure>-->
-            <!--</div>-->
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 text-center DmitryS">
                 <figure>
                     <p><img src="img/team/anton_s.svg" alt="" class="img-responsive center-block"></p>
@@ -189,36 +161,38 @@
     </div>
     
     
-    <div class="container-fluid">
-        <div class="row footer">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 text-left">
-                <p>
-                    Follow us: 
-                    <a href="https://www.facebook.com/lexelor?_rdr"><i class="icon-logo-circle-facebook socials"></i></a>
-                    <a href="https://plus.google.com/+Lexelorx/about"><i class="icon-logo-circle-google-plus socials"></i></a>
-                    <a href="https://twitter.com/lexelorx"><i class="icon-logo-circle-twitter-bird socials"></i></a>
-                </p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 text-right">
-                <ul class="list-unstyled list-inline">
+    <div class="container-fluid footer">
+        <div class="container ">
+            <div class="row">
+                <ul class="list-unstyled list-inline col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <li><a href=""> Contact</a></li>
                     <li><a href=""> FAQ</a></li>
                     <li><a href="team.html"> Team</a></li>
                     <li><a href=""> Carreers</a></li>
                     <li><a href=""> Privacy</a></li>
-                    <li><a href=""> Terms</a></li>
+                    <li><a href=""> Terms & Conditions</a></li>
                 </ul>
+            </div>
+            <div class="row second">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 copyright">
+                    <p>
+                        2015 Lexelor inc. All rightts reserved . 
+                        <a href="" class="text-underline">Cada privacy policy</a> | 
+                        <a href="" class="text-underline"> Legal</a> | 
+                        <a href="" class="text-underline"> Trademarks</a>
+                    </p>                      
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <ul class="list-unstyled list-inline text-right">
+                        <li><a href=""><i class="icon-logo-facebook socials"></i></a></li>
+                        <li><a href=""><i class="icon-logo-twitter-bird socials"></i></a></li>
+                        <li><a href=""><i class="icon-logo-google-plus-1 socials"></i></a></li>
+                    </ul>
+                </div> 
             </div>
         </div>
     </div>
     
-    <div class="container-fluid">
-        <div class="row text-center copyright">
-            <p>
-                2015 Lexelor inc. 
-            </p>
-        </div>
-    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -227,6 +201,6 @@
     <script src="js/typed.js"></script>
     <script src="js/headingTyped.js"></script>
     <script src="js/button.js"></script>
-         
+    
   </body>
 </html>

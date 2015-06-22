@@ -6,6 +6,8 @@
   font-family: courierBold;
   src: url(../fonts/courbd.ttf);
 }
+/*Origin colors*/
+/*Icon coloros for mainPage*/
 html,
 body {
   height: 100%;
@@ -18,13 +20,13 @@ body {
   margin-top: 0;
 }
 .teamPage .team {
-  margin-top: -130px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 .teamPage .team .profileLinks a {
   font-size: 1.575em;
   text-decoration: none;
-  color: #686868;
+  color: #303030;
   transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out;

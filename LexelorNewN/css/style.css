@@ -6,16 +6,8 @@
   font-family: courierBold;
   src: url(../fonts/courbd.ttf);
 }
-body {
-  font-family: courierNew;
-  background: #f7f7f7;
-  padding-top: 100px;
-}
-@media screen and (max-width: 769px) {
-  body {
-    padding-top: 70px;
-  }
-}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
 h1 {
   font-size: 2.25em;
 }
@@ -34,10 +26,20 @@ h5 {
 h6 {
   font-size: 0.75em;
 }
+body {
+  font-family: courierNew;
+  background: #f7f7f7;
+  padding-top: 100px;
+}
+@media screen and (max-width: 769px) {
+  body {
+    padding-top: 70px;
+  }
+}
 .navbar {
   background: #ffffff;
   box-shadow: none;
-  border-bottom: 1px solid #686868;
+  border-bottom: 1px solid #303030;
   height: 80px;
   padding-top: 1%;
 }
@@ -100,61 +102,66 @@ h6 {
 }
 .scrollDashed {
   height: 200px;
-  border-top: 1px dashed #686868;
-  border-bottom: 1px dashed #686868;
+  border-top: 1px dashed #303030;
+  border-bottom: 1px dashed #303030;
   margin-top: 10%;
   margin-bottom: 10%;
 }
 .footer {
   background: #ffffff;
-  border-top: 1px solid #686868;
-  padding-top: 2%;
+  border-top: 1px solid #303030;
+  padding-top: 3%;
+  padding-bottom: 1%;
 }
 .footer a {
-  color: #686868;
+  color: #303030;
   transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out;
-  font-family: courierBold;
+  font-family: courierNew;
 }
 .footer a:hover {
   text-decoration: none;
   color: #1d81e2;
 }
 .footer a .socials {
-  font-size: 1.25em;
+  font-size: 1.2em;
 }
-.footer a .socials,
-.footer a .footerIcons {
-  position: relative;
-  bottom: -13%;
+.footer .icon-logo-facebook:hover {
+  color: #3b5998;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
 }
-.copyright {
+.footer .icon-logo-google-plus-1:hover {
+  color: #d34836;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.footer .icon-logo-twitter-bird:hover {
+  color: #55acee;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.footer .copyright {
   background: #ffffff;
   color: darkgray;
   font-size: .7em;
+}
+.footer .copyright .text-underline {
+  text-decoration: underline;
+  font-size: 1.2em;
+  color: #303030;
+  font-family: courierBold;
+}
+.footer .second {
+  margin-top: 2%;
 }
 @media screen and (max-width: 769px) {
   .footer .col-sm-12 p,
   .footer .col-sm-12 ul {
     text-align: center;
   }
-}
-.icon-logo-circle-facebook:hover {
-  color: #3b5998;
-  transition: color 0.25s ease-in-out;
-  -moz-transition: color 0.25s ease-in-out;
-  -webkit-transition: color 0.25s ease-in-out;
-}
-.icon-logo-circle-google-plus:hover {
-  color: #d34836;
-  transition: color 0.25s ease-in-out;
-  -moz-transition: color 0.25s ease-in-out;
-  -webkit-transition: color 0.25s ease-in-out;
-}
-.icon-logo-circle-twitter-bird:hover {
-  color: #55acee;
-  transition: color 0.25s ease-in-out;
-  -moz-transition: color 0.25s ease-in-out;
-  -webkit-transition: color 0.25s ease-in-out;
 }
