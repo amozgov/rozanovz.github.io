@@ -58,7 +58,7 @@ body {
   border-bottom: 1px solid #f7f7f7;
 }
 .navbar .navbar-nav li a:not(.btnSignIn) {
-  font-family: courierNew;
+  font-family: courierBold;
   color: #303030;
   font-size: 0.875em;
 }
