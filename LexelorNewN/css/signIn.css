@@ -1,10 +1,10 @@
 @font-face {
   font-family: courierNew;
-  src: url(../fonts/cour.ttf);
+  src: url(../fonts/cour.otf);
 }
 @font-face {
   font-family: courierBold;
-  src: url(../fonts/courbd.ttf);
+  src: url(../fonts/courbd.otf);
 }
 /*Origin colors*/
 /*Icon coloros for mainPage*/
@@ -43,7 +43,6 @@
 @media screen and (max-height: 560px) {
   .signPage header {
     margin-top: -40px;
-    border: 1px solid red;
   }
 }
 .signPage header h1 {
