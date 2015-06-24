@@ -12,13 +12,6 @@ html,
 body {
   height: 100%;
 }
-.teamPage #team {
-  margin-top: -3.6%;
-  padding: 6.5%;
-}
-.teamPage #team h2 {
-  margin-top: 0;
-}
 .teamPage .team {
   margin-top: 10px;
   margin-bottom: 50px;

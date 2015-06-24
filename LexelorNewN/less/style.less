@@ -1,5 +1,7 @@
 @import "fonts-colors.less";
 
+html, body {height: 100%;}
+
 h1{font-size:2.25em;}//36px
 h2{font-size:1.875em;}//30px
 h3{font-size:1.5em;}//24px
@@ -19,7 +21,7 @@ body {
 .navbar{
     background: @white;
     box-shadow: none;
-    border-bottom: 1px solid @black;
+//    border-bottom: 1px solid @black;
     height:80px;
     padding-top: 1%;
     @media screen and (max-width:769px){
@@ -79,7 +81,12 @@ body {
     margin-top: 10%;
     margin-bottom: 10%;
 }
-
+.headingPage{
+  margin-top: -1.5%;
+  height:30%;
+  background: @white;
+  padding-top:3%;
+}
 .footer{
     background: @white;
     border-top: 1px solid @black;
