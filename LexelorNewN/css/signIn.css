@@ -67,7 +67,7 @@
 }
 .signPage header .form-group input {
   border: none;
-  border-bottom: 1px solid #f7f7f7;
+  border-bottom: 1px solid #686868;
   border-radius: 0;
   height: 60px;
 }
@@ -101,4 +101,7 @@
 }
 .signPage header .submit:hover {
   opacity: .9;
+}
+.signPage .passHelp {
+  margin-top: 5%;
 }

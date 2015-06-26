@@ -9,4 +9,14 @@ $(function(){
       typeSpeed: 0,
       showCursor: false
     });
+    $(".typedCareers").typed({
+      strings: ["> Careers @ Lexelor"],
+      typeSpeed: 0,
+      showCursor: false
+    });
+    $(".typedFAQ").typed({
+      strings: ["> Frequently Asked Questions"],
+      typeSpeed: 0,
+      showCursor: false
+    });
 });

@@ -57,6 +57,7 @@ body {
   background: url(../img/lexelor.svg) no-repeat;
   background-position: center;
   width: 150px;
+  color: #ffffff;
 }
 .navbar .navbar-nav li a:not(.btnSignIn) {
   font-family: courierNew;
