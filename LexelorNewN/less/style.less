@@ -19,11 +19,12 @@ body {
 }
 
 .navbar{
-    background: @white;
+    background: rgb(46, 44, 50);
     box-shadow: none;
 //    border-bottom: 1px solid @black;
     height:80px;
     padding-top: 1%;
+    border:none;
     @media screen and (max-width:769px){
         height:initial;
         padding-top: 0;
@@ -34,12 +35,12 @@ body {
         width:150px;
     }
     .navbar-nav li{
-        border-bottom: 1px solid @greyLight;
+        //border-bottom: 1px solid @greyLight;
     }
     .navbar-nav li a:not(.btnSignIn){
-        font-family:courierBold;
-        color: @black;
-        font-size:0.875em;
+        font-family:courierNew;
+        color: @white;
+        font-size:0.975em;
         &:hover{
           color:@blueDark;
           .transition;
@@ -53,12 +54,13 @@ body {
         }
     }
     .navbar-nav li .btnSignIn{
+        color:@white;
         border-radius: 0;
         width:150px;
         height:30px;
         margin-top: 6.5%;
         border: 1px solid @blueLight;
-        font-family:courierBold;
+        font-family:courierNew;
         padding:0%;
         padding-top: 2.5%;
         &:hover{
@@ -83,15 +85,20 @@ body {
 }
 .headingPage{
   margin-top: -1.5%;
+  color:@white;
   height:30%;
+  min-height:200px;
   background: @white;
-  padding-top:3%;
+  padding-top:8%;
+  background:rgb(46, 44, 50);
+  font-size:1.8em;
 }
 .footer{
     background: @white;
     border-top: 1px solid @black;
     padding-top: 3%;
     padding-bottom: 1%;
+    margin-top:130px;
     a{
         color:@black;
         .transition;

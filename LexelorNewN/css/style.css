@@ -41,10 +41,11 @@ body {
   }
 }
 .navbar {
-  background: #ffffff;
+  background: #2e2c32;
   box-shadow: none;
   height: 80px;
   padding-top: 1%;
+  border: none;
 }
 @media screen and (max-width: 769px) {
   .navbar {
@@ -57,13 +58,10 @@ body {
   background-position: center;
   width: 150px;
 }
-.navbar .navbar-nav li {
-  border-bottom: 1px solid #f7f7f7;
-}
 .navbar .navbar-nav li a:not(.btnSignIn) {
-  font-family: courierBold;
-  color: #303030;
-  font-size: 0.875em;
+  font-family: courierNew;
+  color: #ffffff;
+  font-size: 0.975em;
 }
 .navbar .navbar-nav li a:not(.btnSignIn):hover {
   color: #6ca4d6;
@@ -79,12 +77,13 @@ body {
   background: none;
 }
 .navbar .navbar-nav li .btnSignIn {
+  color: #ffffff;
   border-radius: 0;
   width: 150px;
   height: 30px;
   margin-top: 6.5%;
   border: 1px solid #1d81e2;
-  font-family: courierBold;
+  font-family: courierNew;
   padding: 0%;
   padding-top: 2.5%;
 }
@@ -113,15 +112,20 @@ body {
 }
 .headingPage {
   margin-top: -1.5%;
+  color: #ffffff;
   height: 30%;
+  min-height: 200px;
   background: #ffffff;
-  padding-top: 3%;
+  padding-top: 8%;
+  background: #2e2c32;
+  font-size: 1.8em;
 }
 .footer {
   background: #ffffff;
   border-top: 1px solid #303030;
   padding-top: 3%;
   padding-bottom: 1%;
+  margin-top: 130px;
 }
 .footer a {
   color: #303030;
