@@ -9,7 +9,7 @@ h4{font-size:1.125em;}//18px
 h5{font-size:0.875em;}//14px
 h6{font-size:0.75em;}//12px
 
-body {  
+body {
     font-family:courierNew;
     background: @greyLight;
     padding-top: 100px;
@@ -21,7 +21,6 @@ body {
 .navbar{
     background: rgb(46, 44, 50);
     box-shadow: none;
-//    border-bottom: 1px solid @black;
     height:80px;
     padding-top: 1%;
     border:none;
@@ -34,15 +33,12 @@ body {
         background-position: center;
         width:150px;
     }
-    .navbar-nav li{
-        //border-bottom: 1px solid @greyLight;
-    }
     .navbar-nav li a:not(.btnSignIn){
         font-family:courierNew;
         color: @white;
         font-size:0.975em;
         &:hover{
-          color:@blueDark;
+          color:@blueLight;
           .transition;
         }
     }
@@ -86,12 +82,12 @@ body {
 .headingPage{
   margin-top: -1.5%;
   color:@white;
-  height:30%;
-  min-height:200px;
+  height:300px;
   background: @white;
   padding-top:8%;
   background:rgb(46, 44, 50);
   font-size:1.8em;
+  margin-bottom: 120px;
 }
 .footer{
     background: @white;
@@ -138,7 +134,7 @@ body {
     .second{
         margin-top: 2%;
     }
-    
+
 }
 
 @media screen and (max-width:769px){
@@ -146,6 +142,5 @@ body {
     .footer .col-sm-12 ul{
         text-align:center;
     }
-    
-}
 
+}

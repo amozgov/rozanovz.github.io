@@ -1,0 +1,32 @@
+@import "fonts-colors.less";
+
+.contactPage{
+    input, textarea{
+      border:1px solid @greyDark;
+      border-radius:0;
+      &:focus {
+        outline:none;
+        box-shadow: none;
+      }
+    }
+    label{
+      color: @greyDark;
+      margin-top:3%;
+    }
+    label:not(:first-child){
+      margin-top:3%;
+    }
+    .submit{
+      margin-top: 20px;
+      width:25%;
+      border: none;
+      border-radius:0;
+      background: #1d81e2;
+      color: white;
+      font-family: courierNew;
+      font-size: 1.3em;
+        &:hover{
+          opacity: .9;
+        }
+      }
+}

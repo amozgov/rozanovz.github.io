@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-    
+
     <link href="css/style.css" rel="stylesheet">
     <link href="css/lexelor.css" rel="stylesheet">
     <link href="css/signIn.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <![endif]-->
   </head>
   <body class="signPage">
-    <nav class="navbar navbar-default navbar-fixed-top hidden-sm hidden-xs">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="container">
           <div class="navbar-header">
@@ -33,7 +33,7 @@
         </div>
       </div>
     </nav>
-    <nav class="navbar navbar-default hidden-md hidden-lg">
+    <!-- <nav class="navbar navbar-default hidden-md hidden-lg">
       <div class="container-fluid">
         <div class="container">
           <div class="navbar-header">
@@ -41,27 +41,44 @@
           </div>
         </div>
       </div>
-    </nav>
+    </nav> -->
     <header>
-    
+
      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <h3>Lets get you back into the game.</h3>
         <form action="">
           <div class="form-group">
-            <label for="exampleInputEmail1">
-              Email address 
+            <label for="exampleInputEmail1" class="input-block">
+              Email address
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email">
             </label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email">
           </div>
-          <button type="submit" class="btn submit">Submit</button> 
+          <button type="submit" class="btn submit">Submit</button>
         </form>
+        <div class="col-xs-12 col-sm-12 col-md-14 col-lg-14 text-center">
+          <p>
+            Having trouble remebering your email?
+            <br>
+            <a href="#">support@lexelor.com</a>
+            <br>
+            416.464.7135
+          </p>
+        </div>
      </div>
-      
+
     </header>
-   
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script>
+      $('.input-block input').focus(function() {
+          $(this).parent().addClass('hasFocus');
+      });
+      $('.input-block input').blur(function() {
+          $(this).parent().removeClass('hasFocus');
+      });
+    </script>
   </body>
 </html>
