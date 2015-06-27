@@ -33,11 +33,14 @@ body {
         background-position: center;
         width:150px;
         color:@white;
+        @media screen and (max-width:1024px){
+          width:130px;
+        }
     }
     .navbar-nav li a:not(.btnSignIn){
         font-family:courierNew;
         color: @white;
-        font-size:0.975em;
+        font-size:0.905em;
         &:hover{
           color:@blueLight;
           .transition;
@@ -81,14 +84,19 @@ body {
     margin-bottom: 10%;
 }
 .headingPage{
-  margin-top: -1.5%;
+  margin-top: -5.5%;
   color:@white;
   height:300px;
-  background: @white;
   padding-top:8%;
   background:rgb(46, 44, 50);
   font-size:1.8em;
   margin-bottom: 120px;
+  @media screen and (max-width:769px){
+    height:150px;
+    font-size:.9em;
+    margin-top:-7%;
+    margin-bottom:20px;
+  }
 }
 .footer{
     background: @white;

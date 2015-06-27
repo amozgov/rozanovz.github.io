@@ -36,5 +36,13 @@
   font-size: 1.3em;
 }
 .contactPage .submit:hover {
-  opacity: .9;
+  opacity: .7;
+}
+@media screen and (max-width: 769px) {
+  .contactPage .submit {
+    width: 100%;
+    transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+  }
 }
