@@ -104,6 +104,15 @@ body {
     padding-top: 3%;
     padding-bottom: 1%;
     margin-top:130px;
+    @media screen and (max-width:769px){
+      .footerMenu{
+        ul li{
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+
     a{
         color:@black;
         .transition;
@@ -120,7 +129,8 @@ body {
         color:@iconFb;
         .transition;
     }
-    .icon-logo-google-plus-1:hover{
+    .icon-logo-google-plus-1:hover,
+    .icon-logo-email{
         color:@iconGp;
         .transition;
     }
@@ -128,6 +138,11 @@ body {
     .icon-logo-twitter-bird:hover{
         color:@iconTw;
         .transition;
+    }
+
+    .icon-logo-linkedin:hover{
+      color:@iconLi;
+      .transition;
     }
     .copyright{
         background: @white;

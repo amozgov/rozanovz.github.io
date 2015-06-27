@@ -16,18 +16,32 @@ body {
   margin-bottom: 50px;
 }
 .teamPage .team .profileLinks a {
-  font-size: 1.575em;
+  font-size: 1em;
   text-decoration: none;
   color: #303030;
-  transition: color 0.25s ease-in-out;
-  -moz-transition: color 0.25s ease-in-out;
-  -webkit-transition: color 0.25s ease-in-out;
-  font-family: courierBold;
+  font-family: courierNew;
   padding-left: 3%;
 }
 .teamPage .team .profileLinks a:hover {
   text-decoration: none;
-  color: #6ca4d6;
+}
+.teamPage .team .profileLinks a .icon-logo-email:hover {
+  color: #d34836;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.teamPage .team .profileLinks a .icon-logo-twitter-bird:hover {
+  color: #55acee;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.teamPage .team .profileLinks a .icon-logo-linkedin:hover {
+  color: #007bb6;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
 }
 .teamPage .team img {
   width: 20%;

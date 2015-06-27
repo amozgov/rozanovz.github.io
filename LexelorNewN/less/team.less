@@ -10,18 +10,27 @@ html, body{
         margin-bottom: 50px;
         .profileLinks{
             a{
-                font-size:1.575em;
+                font-size:1em;
                 text-decoration: none;
                 color:@black;
-                transition: color .25s ease-in-out;
-                   -moz-transition: color .25s ease-in-out;
-                   -webkit-transition: color .25s ease-in-out;
-                font-family: courierBold;
+                font-family: courierNew;
                 padding-left: 3%;
-
                 &:hover{
                     text-decoration: none;
-                    color:@blueDark;
+                }
+                .icon-logo-email:hover{
+                    color:@iconGp;
+                    .transition;
+                }
+
+                .icon-logo-twitter-bird:hover{
+                    color:@iconTw;
+                    .transition;
+                }
+
+                .icon-logo-linkedin:hover{
+                  color:@iconLi;
+                  .transition;
                 }
             }
         }

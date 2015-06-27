@@ -107,3 +107,27 @@
 .icon-logo-google-plus-1:before {
   content: "w";
 }
+.icon-undo:before {
+  content: "x";
+}
+.icon-map-direction:before {
+  content: "y";
+}
+.icon-check-circle-2:before {
+  content: "z";
+}
+.icon-button-power-2:before {
+  content: "A";
+}
+.icon-remove-circle-1:before {
+  content: "B";
+}
+.icon-infomation-circle:before {
+  content: "C";
+}
+.icon-new-sticker-circle:before {
+  content: "D";
+}
+.icon-add-circle-1:before {
+  content: "E";
+}

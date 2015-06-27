@@ -140,6 +140,12 @@ body {
   padding-bottom: 1%;
   margin-top: 130px;
 }
+@media screen and (max-width: 769px) {
+  .footer .footerMenu ul li {
+    display: block;
+    text-align: center;
+  }
+}
 .footer a {
   color: #303030;
   transition: color 0.25s ease-in-out;
@@ -160,7 +166,8 @@ body {
   -moz-transition: color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out;
 }
-.footer .icon-logo-google-plus-1:hover {
+.footer .icon-logo-google-plus-1:hover,
+.footer .icon-logo-email {
   color: #d34836;
   transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
@@ -168,6 +175,12 @@ body {
 }
 .footer .icon-logo-twitter-bird:hover {
   color: #55acee;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+}
+.footer .icon-logo-linkedin:hover {
+  color: #007bb6;
   transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out;

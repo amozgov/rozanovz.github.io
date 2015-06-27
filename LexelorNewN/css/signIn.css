@@ -11,6 +11,17 @@
 .navbar {
   background: #ffffff;
 }
+.navbar .navbar-brand {
+  background: url(../img/logo_sign_in.svg) no-repeat;
+  background-position: center;
+  width: 150px;
+  color: #ffffff;
+}
+@media screen and (max-width: 1024px) {
+  .navbar .navbar-brand {
+    width: 130px;
+  }
+}
 .signPage {
   background: #ffffff;
 }
