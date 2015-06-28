@@ -1,0 +1,58 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+.careersPage .beginning {
+  background: #ffffff;
+  padding: 1%;
+}
+.careersPage .beginning h3 {
+  margin-top: 7%;
+  font-family: courierBold;
+}
+.careersPage .beginning p {
+  font-family: Helvetica;
+  font-size: 1.05em;
+}
+.careersPage .pirate-container svg {
+  width: 50%;
+  height: 250px;
+}
+.careersPage .work {
+  background: #ffffff;
+  margin-top: 2%;
+}
+.careersPage .work .getTo p {
+  margin-top: 1.2%;
+}
+.careersPage .work .branchSales {
+  text-align: right;
+}
+@media screen and (max-width: 1024px) {
+  .careersPage .work .branchSales {
+    text-align: left;
+  }
+}
+.careersPage .work .branchSales h2,
+.careersPage .work .branchDeveloping h2 {
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 1.5%;
+  margin-bottom: 8%;
+}
+.careersPage .work h4 {
+  color: #f4005c;
+}
+.careersPage .work li {
+  font-family: Helvetica;
+  margin-bottom: 5%;
+}
+.careersPage .footer {
+  margin-top: 0;
+  border: 0;
+}

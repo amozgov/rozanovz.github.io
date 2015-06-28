@@ -1,0 +1,55 @@
+@import "fonts-colors.less";
+
+.careersPage{
+    .beginning{
+        background: @white;
+        padding: 1%;
+        h3{
+            margin-top: 7%;
+            font-family: courierBold;
+        }
+        p{
+            font-family: Helvetica;
+            font-size: 1.05em;
+        }
+    }
+    .pirate-container{
+        svg{
+            width: 50%;
+            height: 250px;
+        }
+    }
+    .work{
+        background: @white;
+        margin-top: 2%;
+        .getTo{
+            p{
+                margin-top: 1.2%;
+            }
+        }
+        .branchSales{
+            text-align: right;
+            @media screen and (max-width:1024px){
+                text-align: left;
+            }
+        }
+        .branchSales, .branchDeveloping{
+            h2{
+                border-bottom: 1px solid darken(@greyLight, 10%);
+                padding-bottom: 1.5%;
+                margin-bottom: 8%; 
+            }
+        }
+        h4{
+            color: #f4005c;
+        }
+        li{
+            font-family: Helvetica;
+            margin-bottom: 5%;
+        }
+    }
+    .footer{
+        margin-top: 0;
+        border: 0;
+    }
+}

@@ -1,0 +1,17 @@
+.faqPage .leftMenu h3,
+.faqPage .leftMenu a {
+  font-family: Helvetica;
+}
+.faqPage .leftMenu a {
+  color: #f4005c;
+}
+.faqPage .leftMenu a:hover {
+  text-decoration: none;
+}
+.faqPage .faqAns h1 {
+  font-size: 2.8em;
+}
+.faqPage .faqAns p {
+  font-family: Helvetica;
+  font-size: 1.15em;
+}
