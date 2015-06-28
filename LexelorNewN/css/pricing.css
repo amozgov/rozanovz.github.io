@@ -1,0 +1,93 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+.pricingPage #pricing {
+  padding-bottom: 20%;
+}
+@media screen and (max-width: 1024px) {
+  .pricingPage #pricing {
+    padding-bottom: 45%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .pricingPage #pricing {
+    padding-bottom: 35%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .pricingPage #pricing {
+    padding-bottom: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .pricingPage #pricing {
+    padding-bottom: 79%;
+  }
+}
+.pricingPage #pricing .green {
+  color: #62d395;
+}
+.pricingPage .infoBlock h3 {
+  font-size: 1.475em;
+  font-family: courierBold;
+}
+.pricingPage .infoBlock .learnMore {
+  font-size: 1.3em;
+  color: #f4005c;
+}
+.pricingPage .infoBlock .learnMore:hover {
+  text-decoration: none;
+}
+.pricingPage .fee {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.pricingPage .bigInfoBlock {
+  margin-bottom: 5%;
+}
+.pricingPage .bigInfoBlock .icon-add-circle-1 {
+  color: #e85657;
+}
+.pricingPage .bigInfoBlock .icon-check-circle-2 {
+  color: #8fd69c;
+}
+.pricingPage .bigInfoBlock .icon-undo {
+  color: #6b69d2;
+}
+.pricingPage .bigInfoBlock .icon-remove-circle-1 {
+  color: #796357;
+}
+.pricingPage .bigInfoBlock .icon {
+  font-size: 2.5em;
+  position: relative;
+  top: 17px;
+}
+.pricingPage .bigInfoBlock h3 {
+  font-family: courierBold;
+  margin-bottom: 5%;
+}
+.pricingPage .bigInfoBlock p {
+  font-family: Helvetica;
+}
+.pricingPage .bigInfoBlock .rightBlock {
+  background: #e6f2e8;
+  padding: 40px;
+}
+.pricingPage .bigInfoBlock .rightBlock div {
+  margin: 20% 0;
+  width: 100%;
+  border-bottom: 1px dashed #303030;
+}
+.pricingPage .more .moreUnderline {
+  border-bottom: 1px dashed #303030;
+}
+.pricingPage .more .moreUnderline h3 {
+  font-size: 1.4em;
+}

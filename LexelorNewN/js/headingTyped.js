@@ -19,4 +19,14 @@ $(function(){
       typeSpeed: 0,
       showCursor: false
     });
+    $(".typedPrising").typed({
+      strings: [
+          "<h1>" + "> Lexelor is "+"<span class=\"green\">" + "free" + "</span>" + " to use." + "</h1>" + 
+          "<p>" + "We are all about allowing everyone to be part of advertising market." + "</p>" + 
+          "<p>" + "So it is unfair to charge for something we all have right to be." + "</p>"
+      ],
+      typeSpeed: -5,
+      showCursor: false
+    });
+    
 });

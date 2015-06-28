@@ -1,0 +1,69 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+.headingPageProducts {
+  margin-top: -20px;
+  border: 1px dashed #ffffff;
+  height: 450px;
+  background: #2e2c32;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  .headingPageProducts {
+    height: 670px;
+  }
+}
+.headingPageProducts a:hover {
+  text-decoration: none;
+  background: rgba(46, 44, 50, 0.9);
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
+}
+.headingPageProducts .container {
+  height: 100%;
+}
+.headingPageProducts .vOne {
+  border-left: 1px dashed #ffffff;
+}
+@media screen and (max-width: 1024px) {
+  .headingPageProducts .vOne {
+    border-left: none;
+    border-top: 1px dashed #ffffff;
+  }
+}
+.headingPageProducts .vZero {
+  border-right: 1px dashed #ffffff;
+}
+@media screen and (max-width: 1024px) {
+  .headingPageProducts .vZero {
+    border-right: none;
+    border-bottom: 1px dashed #ffffff;
+  }
+}
+.headingPageProducts .versions {
+  padding: 120px 160px 0 160px;
+}
+.headingPageProducts .versions h1 {
+  font-size: 5em;
+  color: #ffffff;
+}
+.headingPageProducts .versions h4 {
+  color: #ababab;
+  font-size: 1.4em;
+}
+.headingPageProducts .versions h5 {
+  font-size: 1.2em;
+  margin-top: 5%;
+  color: #ffc21f;
+}
+.headingPageProducts .versions h5 span {
+  color: #ababab;
+}
