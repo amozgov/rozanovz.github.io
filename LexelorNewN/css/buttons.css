@@ -55,9 +55,8 @@
   width: 15px;
   height: 17px;
   margin: 0 2px 0 0;
-  background: black;
+  background: white;
 }
-
 @-webkit-keyframes rotate-out {
   0% {
     -webkit-transform: rotate(0deg);
@@ -213,7 +212,7 @@
   height: 2px;
   width: 18px;
   border-radius: 1px;
-  background: black;
+  background: white;
 }
 
 .burger-bun-top {

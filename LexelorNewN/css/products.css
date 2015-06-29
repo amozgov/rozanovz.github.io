@@ -41,6 +41,34 @@
 .productPage .headingPageProducts .versions h5 span {
   color: #ababab;
 }
+@media screen and (max-width: 1024px) {
+  .productPage .headingPageProducts .versions {
+    height: 350px;
+  }
+  .productPage .headingPageProducts .versions h1 {
+    font-size: 4em;
+  }
+  .productPage .headingPageProducts .versions h4 {
+    font-size: 1em;
+  }
+  .productPage .headingPageProducts .versions h5 {
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 769px) {
+  .productPage .headingPageProducts .versions {
+    height: 300px;
+  }
+  .productPage .headingPageProducts .versions h1 {
+    font-size: 3em;
+  }
+  .productPage .headingPageProducts .versions h4 {
+    font-size: 1em;
+  }
+  .productPage .headingPageProducts .versions h5 {
+    font-size: 1em;
+  }
+}
 .productPage .pick p {
   font-family: Helvetica;
 }
