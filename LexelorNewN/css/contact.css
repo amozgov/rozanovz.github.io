@@ -37,6 +37,9 @@
 }
 .contactPage .submit:hover {
   opacity: .7;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
 }
 @media screen and (max-width: 769px) {
   .contactPage .submit {

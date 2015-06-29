@@ -34,17 +34,6 @@
 .pricingPage #pricing .green {
   color: #62d395;
 }
-.pricingPage .infoBlock h3 {
-  font-size: 1.475em;
-  font-family: courierBold;
-}
-.pricingPage .infoBlock .learnMore {
-  font-size: 1.3em;
-  color: #f4005c;
-}
-.pricingPage .infoBlock .learnMore:hover {
-  text-decoration: none;
-}
 .pricingPage .fee {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -64,11 +53,6 @@
 .pricingPage .bigInfoBlock .icon-remove-circle-1 {
   color: #796357;
 }
-.pricingPage .bigInfoBlock .icon {
-  font-size: 2.5em;
-  position: relative;
-  top: 17px;
-}
 .pricingPage .bigInfoBlock h3 {
   font-family: courierBold;
   margin-bottom: 5%;
@@ -83,10 +67,10 @@
 .pricingPage .bigInfoBlock .rightBlock div {
   margin: 20% 0;
   width: 100%;
-  border-bottom: 1px dashed #303030;
+  border-bottom: 1px dotted #303030;
 }
 .pricingPage .more .moreUnderline {
-  border-bottom: 1px dashed #303030;
+  border-bottom: 1px dotted #303030;
 }
 .pricingPage .more .moreUnderline h3 {
   font-size: 1.4em;

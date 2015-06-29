@@ -62,7 +62,7 @@
 .signPage header .form-group label {
   width: 100%;
   color: #686868;
-  padding-left: 1%;
+  padding: 2%;
 }
 .signPage header .form-group label .text-right {
   float: right;
@@ -78,9 +78,10 @@
 }
 .signPage header .form-group input {
   border: none;
-  border-bottom: 1px solid #686868;
+  border-bottom: 1px solid #e8e8e8;
   border-radius: 0;
   height: 60px;
+  box-shadow: none;
 }
 .signPage header .form-group input:focus {
   outline: none;
@@ -88,6 +89,13 @@
 }
 .signPage header .hasFocus {
   border-left: 3px solid #1d81e2;
+  background: #fafafa;
+  transition: border-left 0.25s ease-in-out;
+  -moz-transition: border-left 0.25s ease-in-out;
+  -webkit-transition: border-left 0.25s ease-in-out;
+}
+.signPage header .hasFocus input {
+  background: #fafafa;
 }
 @media screen and (max-width: 365px) {
   .signPage header .facebook {

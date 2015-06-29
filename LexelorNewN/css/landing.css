@@ -1,0 +1,73 @@
+@font-face {
+  font-family: courierNew;
+  src: url(../fonts/cour.otf);
+}
+@font-face {
+  font-family: courierBold;
+  src: url(../fonts/courbd.otf);
+}
+/*Origin colors*/
+/*Icon coloros for mainPage*/
+.dots {
+  height: 500px;
+}
+.landingHeading {
+  background: #3a7ab8;
+  color: #ffffff;
+  height: 500px;
+  margin-top: -20px;
+}
+.landingHeading .container {
+  padding: 0;
+}
+.landingHeading .headingText {
+  margin-top: 13%;
+}
+.landingHeading .headingText h1 {
+  margin-bottom: 5%;
+  font-size: 3.5em;
+}
+.landingHeading .headingText h4 {
+  font-family: courierNew;
+}
+.landingHeading .headingText .vZeroBtn {
+  background: #ffde85;
+}
+.landingHeading .headingText .notifiedBtn {
+  background: #ffffff;
+}
+.landingHeading .headingText .notifiedBtn,
+.landingHeading .headingText .vZeroBtn {
+  margin-top: 5%;
+  color: #303030;
+  border-radius: 0;
+  border: 1px solid #303030;
+  padding: 1.5% 1.5%;
+}
+.info .row {
+  border-top: 1px dotted #303030;
+}
+.info .row:nth-child(2) {
+  border-bottom: 1px dotted #303030;
+}
+.info .row .infoBlock:not(:last-child) {
+  border-right: 1px dotted #303030;
+}
+.info .row .infoBlock {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+@media screen and (max-width: 1024px) {
+  .info .row {
+    border: none;
+  }
+  .info .row:nth-child(2) {
+    border-bottom: none;
+  }
+  .info .row .infoBlock:not(:last-child) {
+    border: none;
+  }
+  .info .row .infoBlock {
+    margin-bottom: 5%;
+  }
+}

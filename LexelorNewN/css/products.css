@@ -8,62 +8,63 @@
 }
 /*Origin colors*/
 /*Icon coloros for mainPage*/
-.headingPageProducts {
+.productPage .headingPageProducts {
   margin-top: -20px;
-  border: 1px dashed #ffffff;
-  height: 450px;
-  background: #2e2c32;
-  background-size: cover;
+  padding: 0;
 }
-@media screen and (max-width: 1024px) {
-  .headingPageProducts {
-    height: 670px;
-  }
-}
-.headingPageProducts a:hover {
+.productPage .headingPageProducts a:hover {
   text-decoration: none;
-  background: rgba(46, 44, 50, 0.9);
+  background: rgba(46, 44, 50, 0.95);
   transition: background 0.25s ease-in-out;
   -moz-transition: background 0.25s ease-in-out;
   -webkit-transition: background 0.25s ease-in-out;
 }
-.headingPageProducts .container {
-  height: 100%;
+.productPage .headingPageProducts .versions {
+  height: 500px;
+  border: 1px dotted #ffffff;
+  background: #2e2c32;
+  padding: 10% 10%;
 }
-.headingPageProducts .vOne {
-  border-left: 1px dashed #ffffff;
-}
-@media screen and (max-width: 1024px) {
-  .headingPageProducts .vOne {
-    border-left: none;
-    border-top: 1px dashed #ffffff;
-  }
-}
-.headingPageProducts .vZero {
-  border-right: 1px dashed #ffffff;
-}
-@media screen and (max-width: 1024px) {
-  .headingPageProducts .vZero {
-    border-right: none;
-    border-bottom: 1px dashed #ffffff;
-  }
-}
-.headingPageProducts .versions {
-  padding: 120px 160px 0 160px;
-}
-.headingPageProducts .versions h1 {
+.productPage .headingPageProducts .versions h1 {
   font-size: 5em;
   color: #ffffff;
 }
-.headingPageProducts .versions h4 {
+.productPage .headingPageProducts .versions h4 {
   color: #ababab;
   font-size: 1.4em;
 }
-.headingPageProducts .versions h5 {
+.productPage .headingPageProducts .versions h5 {
   font-size: 1.2em;
   margin-top: 5%;
   color: #ffc21f;
 }
-.headingPageProducts .versions h5 span {
+.productPage .headingPageProducts .versions h5 span {
   color: #ababab;
+}
+.productPage .pick p {
+  font-family: Helvetica;
+}
+.productPage .infoBlock .icon-add-circle-1 {
+  color: #e85657;
+}
+.productPage .infoBlock .icon-button-power-2 {
+  color: #6b69d2;
+}
+.productPage .infoBlock .icon-undo {
+  color: #e85657;
+}
+.productPage .infoBlock .icon-remove-circle-1 {
+  color: #796357;
+}
+.productPage .infoBlock .icon-map-direction {
+  color: #6ca4d6;
+}
+.productPage .businessContainer {
+  background: #ffffff;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.productPage .businessContainer h2 {
+  margin-top: 3%;
+  color: #f4005c;
 }

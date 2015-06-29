@@ -1,53 +1,56 @@
 @import "fonts-colors.less";
 
-.headingPageProducts{
-    margin-top: -20px;
-    border: 1px dashed @white;
-    height: 450px;
-    background:rgb(46, 44, 50);
-    background-size: cover;
-    @media screen and (max-width:1024px){
-        height: 670px;
-    }
-    a:hover{
-        text-decoration:none;
-        background: rgba(46, 44, 50,.9);
-        .transitionBg;
-    }
-    .container{
-        height: 100%;
-    }
-    .vOne{
-        border-left: 1px dashed @white;
-        @media screen and (max-width:1024px){
-            border-left: none;
-            border-top: 1px dashed @white;
+.productPage{
+    .headingPageProducts{
+        margin-top: -20px;
+        padding: 0;
+        a:hover{
+            text-decoration:none;
+            background: rgba(46, 44, 50,.95);
+            .transitionBg;
         }
-    }
-    .vZero{
-        border-right: 1px dashed @white;
-        @media screen and (max-width:1024px){
-            border-right: none;
-            border-bottom: 1px dashed @white;
-        }
-    }
-    .versions{
-        padding: 120px 160px 0 160px;
-        h1{
-            font-size:5em;
-            color:@white;
-        }
-        h4{
-            color:darken(@greyLight, 30%);
-            font-size:1.4em;
-        }
-        h5{
-            font-size:1.2em;
-            margin-top: 5%;
-            color:darken(#ffde85,20%);
-            span{
-               color:darken(@greyLight, 30%); 
+        .versions{
+            height:500px;
+            border: 1px dotted @white;
+            background:rgb(46, 44, 50);
+            padding: 10% 10%;
+            h1{
+                font-size:5em;
+                color:@white;
             }
+            h4{
+                color:darken(@greyLight, 30%);
+                font-size:1.4em;
+            }
+            h5{
+                font-size:1.2em;
+                margin-top: 5%;
+                color:darken(#ffde85,20%);
+                span{
+                   color:darken(@greyLight, 30%); 
+                }
+            }
+        }
+    }
+    .pick{
+        p{
+            font-family: Helvetica;
+        }
+    }
+    .infoBlock{
+        .icon-add-circle-1{color:#e85657;}
+        .icon-button-power-2{color:#6b69d2;}
+        .icon-undo{color:#e85657;}  
+        .icon-remove-circle-1{color:#796357;} 
+        .icon-map-direction{color:#6ca4d6;}
+    }
+    .businessContainer{
+        background: @white;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        h2{
+            margin-top: 3%;
+            color:#f4005c;
         }
     }
 }
