@@ -77,7 +77,7 @@ body {
   -webkit-transition: color 0.25s ease-in-out;
 }
 .navbar .navbar-nav li a:not(.btnSignIn).activeLink {
-  color: #1d81e2;
+  color: #62d395;
 }
 .navbar .navbar-toggle {
   padding: 0;
