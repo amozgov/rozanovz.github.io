@@ -15,6 +15,7 @@
 .careersPage .beginning {
   background: #f7f7f7;
   padding: 1%;
+  margin-bottom: 8%;
 }
 .careersPage .beginning h3 {
   margin-top: 4%;
@@ -33,9 +34,11 @@
 .careersPage .work {
   background: #ffffff;
   margin-top: 2%;
+  margin-bottom: 4%;
 }
 .careersPage .work .getTo p {
   margin-top: 1.2%;
+  margin-bottom: 7%;
 }
 @media screen and (max-width: 1024px) {
   .careersPage .work .branchSales {

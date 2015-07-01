@@ -200,7 +200,6 @@ a:hover {
   transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -webkit-transition: color 0.25s ease-in-out;
-  font-weight: bolder !important;
   font-family: courierBold;
 }
 .footer a:hover {
