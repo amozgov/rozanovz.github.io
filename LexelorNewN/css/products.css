@@ -6,40 +6,52 @@
   font-family: courierBold;
   src: url(../fonts/courbd.otf);
 }
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/SF.otf);
+}
 /*Origin colors*/
 /*Icon coloros for mainPage*/
 .productPage .headingPageProducts {
   margin-top: -20px;
   padding: 0;
 }
-.productPage .headingPageProducts a:hover {
-  text-decoration: none;
-  background: rgba(46, 44, 50, 0.95);
-  transition: background 0.25s ease-in-out;
-  -moz-transition: background 0.25s ease-in-out;
-  -webkit-transition: background 0.25s ease-in-out;
-}
 .productPage .headingPageProducts .versions {
-  height: 500px;
-  border: 1px dotted #ffffff;
-  background: #2e2c32;
-  padding: 10% 10%;
+  height: 350px;
+  border: 2px dotted #ffffff;
+  background: #3E3C42;
+  padding: 3.5% 2.5%;
 }
 .productPage .headingPageProducts .versions h1 {
-  font-size: 5em;
+  font-size: 4.2em;
   color: #ffffff;
+  line-height: 150%;
 }
 .productPage .headingPageProducts .versions h4 {
-  color: #ababab;
-  font-size: 1.4em;
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 200%;
+  font-size: 1.125em;
+  font-family: courierNew;
+  font-weight: 100 !important;
+  color: #ffffff;
 }
 .productPage .headingPageProducts .versions h5 {
-  font-size: 1.2em;
+  font-family: courierNew;
   margin-top: 5%;
-  color: #ffc21f;
+  font-size: 1.1em;
+  color: #61D395;
+  text-decoration: none;
+  font-weight: 100;
+  border-bottom: 1px dotted transparent;
+  width: 0px;
+  transition: 0.5s ease;
+  white-space: nowrap;
+  height: 25px;
 }
-.productPage .headingPageProducts .versions h5 span {
-  color: #ababab;
+.productPage .headingPageProducts .versions h5:hover {
+  border-bottom: 1px dotted #61D395;
+  width: 90px;
 }
 @media screen and (max-width: 1024px) {
   .productPage .headingPageProducts .versions {
@@ -69,8 +81,13 @@
     font-size: 1em;
   }
 }
+.productPage .pick h2 {
+  padding-bottom: 5%;
+}
 .productPage .pick p {
+  font-size: 1.1em;
   font-family: Helvetica;
+  line-height: 200%;
 }
 .productPage .infoBlock .icon-add-circle-1 {
   color: #e85657;
@@ -87,12 +104,30 @@
 .productPage .infoBlock .icon-map-direction {
   color: #6ca4d6;
 }
+.productPage .infoBlock p {
+  font-family: Helvetica;
+  line-height: 200%;
+}
 .productPage .businessContainer {
-  background: #ffffff;
+  background: #f7f7f7;
   padding-top: 8%;
   padding-bottom: 8%;
 }
+.productPage .businessContainer h1 {
+  font-size: 2em;
+}
 .productPage .businessContainer h2 {
+  font-size: 1.75em;
   margin-top: 3%;
   color: #f4005c;
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
+  width: 0px;
+  transition: 0.5s ease;
+  white-space: nowrap;
+  height: 35px;
+}
+.productPage .businessContainer h2:hover {
+  border-bottom: 1px dotted #f4005c;
+  width: 370px;
 }

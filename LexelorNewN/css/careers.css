@@ -6,19 +6,25 @@
   font-family: courierBold;
   src: url(../fonts/courbd.otf);
 }
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/SF.otf);
+}
 /*Origin colors*/
 /*Icon coloros for mainPage*/
 .careersPage .beginning {
-  background: #ffffff;
+  background: #f7f7f7;
   padding: 1%;
 }
 .careersPage .beginning h3 {
-  margin-top: 7%;
+  margin-top: 4%;
   font-family: courierBold;
+  line-height: 125%;
 }
 .careersPage .beginning p {
   font-family: Helvetica;
-  font-size: 1.05em;
+  font-size: 1.2em;
+  line-height: 150%;
 }
 .careersPage .pirate-container svg {
   width: 50%;
@@ -31,9 +37,6 @@
 .careersPage .work .getTo p {
   margin-top: 1.2%;
 }
-.careersPage .work .branchSales {
-  text-align: right;
-}
 @media screen and (max-width: 1024px) {
   .careersPage .work .branchSales {
     text-align: left;
@@ -41,12 +44,23 @@
 }
 .careersPage .work .branchSales h2,
 .careersPage .work .branchDeveloping h2 {
-  border-bottom: 1px solid #dedede;
+  font-size: 1.6em;
+  border-bottom: 1px dotted #252427;
   padding-bottom: 1.5%;
   margin-bottom: 8%;
 }
 .careersPage .work h4 {
   color: #f4005c;
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
+  width: 0px;
+  transition: 0.5s ease;
+  white-space: nowrap;
+  height: 20px;
+}
+.careersPage .work h4:hover {
+  border-bottom: 1px dotted #f4005c;
+  width: auto;
 }
 .careersPage .work li {
   font-family: Helvetica;

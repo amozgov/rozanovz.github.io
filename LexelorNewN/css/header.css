@@ -36,8 +36,8 @@ header {
   }
 }
 .mainPage .firstScroll-heading {
-  color: #686868;
-  font-family: courierNew;
+  color: #ffffff;
+  font-family: courierBold;
   font-weight: 100;
   position: relative;
   top: 33%;
@@ -54,11 +54,11 @@ header {
 }
 .mainPage .signButton {
   border-radius: 0;
-  width: 20%;
+  width: 10%;
   background: none;
-  color: #686868;
-  border: 1px solid #303030;
-  font-family: courierNew;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-family: courierBold;
   background: #ffffff;
   position: relative;
   top: 35%;
@@ -100,6 +100,6 @@ header {
   bottom: -11px;
 }
 .mainPage .iconThreeContent h3 {
-  color: #686868;
-  font-family: courierNew;
+  color: #ffffff;
+  font-family: courierBold;
 }

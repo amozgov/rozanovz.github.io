@@ -11,7 +11,7 @@ h6{font-size:0.75em;}//12px
 
 body {
     font-family:courierNew;
-    background: @greyLight;
+    background: #ffffff;
     padding-top: 100px;
     @media screen and (max-width:769px){
         padding-top: 70px;
@@ -19,7 +19,7 @@ body {
 }
 
 .navbar{
-    background: rgb(46, 44, 50);
+    background: #3E3C42;
     box-shadow: none;
     height:80px;
     padding-top: 1%;
@@ -28,26 +28,27 @@ body {
         height:initial;
         padding-top: 0;
     }
+
+
     .navbar-brand{
         font-family: courierNew;
         background: url(../img/lexelor.svg) no-repeat;
         background-position: center;
-        width:150px;
+        width:110px;
         color:@white;
         @media screen and (max-width:1024px){
-          width:130px;
+          width:90px;
         }
+
     }
     .navbar-nav li a:not(.btnSignIn){
         font-family:courierNew;
         color: @white;
         font-size:0.905em;
+        font-weight: 700;
         &:hover{
-          color:@blueLight;
+          color:#3c94d3;
           .transition;
-        }
-        &.activeLink{
-            color:#62d395;
         }
     }
     .navbar-toggle{
@@ -60,16 +61,19 @@ body {
     .navbar-nav li .btnSignIn{
         color:@white;
         border-radius: 0;
-        width:150px;
+        width:80px;
         height:30px;
-        margin-top: 6.5%;
-        border: 1px solid @blueLight;
+        margin-top: 14.5%;
+        border: 1px solid @white;
+        font-size:0.905em;
+        font-weight: 700;
         font-family:courierNew;
         padding:0%;
-        padding-top: 2.5%;
+        padding-top: 3.5%;
         &:hover{
             color:@white;
-            background: @blueLight;
+            background: #3c94d3;
+            border: 1px solid  #3c94d3;
             .transition;
             .transitionBg;
         }
@@ -79,21 +83,24 @@ body {
         }
     }
 }
-
+.navbar-brand, .navbar-nav>li>a {
+  text-shadow: none;
+}
 .scrollDashed{
     height:200px;
-    border-top:1px dashed @black;
-    border-bottom:1px dashed @black;
+    border-top:1px dashed #3e3c42;
+    border-bottom:1px dashed #3e3c42;
     margin-top: 10%;
     margin-bottom: 10%;
 }
 .headingPage{
   margin-top: -5.5%;
   color:@white;
-  height:300px;
-  padding-top:8%;
-  background:rgb(46, 44, 50);
-  font-size:1.8em;
+  height:350px;
+  padding-top:10%;
+  background: #3E3C42;
+  font-size:2.0em;
+  font-weight: 100;
   margin-bottom: 120px;
   @media screen and (max-width:769px){
     height:150px;
@@ -103,8 +110,9 @@ body {
   }
 }
 
-.helvetica{
-    font-family: Helvetica;
+@font-face  {
+  font-family: Helvetica;
+    src: url(../fonts/SF.otf);
 }
 .icon{
     font-size:2.5em;
@@ -124,15 +132,25 @@ a{
 
 .infoBlock{
     h3{
-        font-size:1.475em;
+        font-size:1.2em;
         font-family: courierBold;
     }
 
     .learnMore{
-        font-size:1.3em;
+        font-size:1.0em;
         color:#f4005c;
+        text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px dotted transparent;
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+    height: 25px;
+
+
         &:hover{
-            text-decoration: none;
+          border-bottom: 1px dotted #f4005c;
+          width: 80px;
         }
     }
 }
@@ -148,22 +166,28 @@ a{
         ul li{
           display: block;
           text-align: center;
+          line-height:400%;
         }
       }
     }
 
     a{
-        color:@black;
+        color:#3e3c42;
+        font-size:1.0em;
         .transition;
+        font-weight:bolder !important;
         font-family: courierBold;
+
         &:hover{
             text-decoration: none;
-            color:@blueLight;
+            color:#3c94d3;
         }
         .socials{
-            font-size:1.2em;
+            font-size:0.9em;
         }
     }
+
+
     .icon-logo-facebook:hover{
         color:@iconFb;
         .transition;
@@ -186,12 +210,15 @@ a{
     .copyright{
         background: @white;
         color:darkgray;
-        font-size:.7em;
+        font-size: 0.8em;
+        font-weight: 600;
+        font-family: courierNew;
         .text-underline{
             text-decoration:underline;
-            font-size:1.2em;
-            color: @black;
-            font-family: courierBold;
+            font-size: 1em;
+            font-weight: 600;
+            color: #3e3c42;
+            font-family: courierNew;
         }
     }
     .second{
@@ -203,7 +230,8 @@ a{
 @media screen and (max-width:769px){
     .footer .col-sm-12 p,
     .footer .col-sm-12 ul{
-        text-align:center;
+        text-align:left;
+        font-size: 1.0em;
     }
 
 }

@@ -6,6 +6,10 @@
   font-family: courierBold;
   src: url(../fonts/courbd.otf);
 }
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/SF.otf);
+}
 /*Origin colors*/
 /*Icon coloros for mainPage*/
 .dots {
@@ -26,23 +30,59 @@
 .landingHeading .headingText h1 {
   margin-bottom: 5%;
   font-size: 3.5em;
+  font-weight: 100;
+  font-family: courierNew;
 }
 .landingHeading .headingText h4 {
   font-family: courierNew;
 }
 .landingHeading .headingText .vZeroBtn {
   background: #ffde85;
-}
-.landingHeading .headingText .notifiedBtn {
-  background: #ffffff;
-}
-.landingHeading .headingText .notifiedBtn,
-.landingHeading .headingText .vZeroBtn {
+  font-family: courierBold;
+  font-size: 1em;
   margin-top: 5%;
-  color: #303030;
+  color: #3E3C42;
   border-radius: 0;
   border: 1px solid #303030;
-  padding: 1.5% 1.5%;
+  padding: 2.0% 1.5%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.landingHeading .headingText .vZeroBtn:hover {
+  background: #ffe8aa;
+  border: 1px solid #ffe8aa;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
+}
+.landingHeading .headingText .notifiedBtn {
+  font-family: courierBold;
+  font-size: 1em;
+  margin-top: 5%;
+  color: #3E3C42;
+  border-radius: 0;
+  border: 1px solid #303030;
+  padding: 2.0% 1.5%;
+  cursor: pointer;
+  text-decoration: none;
+  background: #ffffff;
+}
+.landingHeading .headingText .notifiedBtn:hover {
+  font-family: courierBold;
+  font-size: 1em;
+  margin-top: 5%;
+  color: #ffffff;
+  background: #3E3C42;
+  border: 1px solid #3E3C42;
+  transition: color 0.25s ease-in-out;
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out;
+  -moz-transition: background 0.25s ease-in-out;
+  -webkit-transition: background 0.25s ease-in-out;
 }
 .info .row {
   border-top: 1px dotted #303030;
@@ -62,10 +102,10 @@
     border: none;
   }
   .info .row:nth-child(2) {
-    border-bottom: none;
+    border: 1px dotted #303030;
   }
   .info .row .infoBlock:not(:last-child) {
-    border: none;
+    border: 1px dotted #303030;
   }
   .info .row .infoBlock {
     margin-bottom: 5%;

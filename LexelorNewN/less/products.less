@@ -4,33 +4,49 @@
     .headingPageProducts{
         margin-top: -20px;
         padding: 0;
-        a:hover{
-            text-decoration:none;
-            background: rgba(46, 44, 50,.95);
-            .transitionBg;
-        }
+
+
         .versions{
-            height:500px;
-            border: 1px dotted @white;
-            background:rgb(46, 44, 50);
-            padding: 10% 10%;
-            
+            height:350px;
+            border: 2px dotted @white;
+            background:#3E3C42;
+            padding: 3.5% 2.5%;
+
             h1{
-                font-size:5em;
+                font-size:4.2em;
                 color:@white;
+                line-height: 150%;
             }
             h4{
-                color:darken(@greyLight, 30%);
-                font-size:1.4em;
+              max-width: 400px;
+              margin: 0 auto;
+              line-height: 200%;
+                font-size: 1.125em;
+                font-family: courierNew;
+                font-weight: 100 !important;
+                color: #ffffff;
             }
             h5{
-                font-size:1.2em;
+               font-family: courierNew;
                 margin-top: 5%;
-                color:darken(#ffde85,20%);
-                span{
-                   color:darken(@greyLight, 30%); 
+                font-size:1.1em;
+               color:#61D395;
+                text-decoration: none;
+              font-weight: 100;
+            border-bottom: 1px dotted transparent;
+            width: 0px;
+            transition: 0.5s ease;
+            white-space: nowrap;
+            height: 25px;
+
+
+                &:hover{
+                  border-bottom: 1px dotted #61D395;
+                  width: 90px;
                 }
             }
+
+
             @media screen and (max-width:1024px){
                 height:350px;
                 h1{font-size:4em;}
@@ -46,24 +62,57 @@
         }
     }
     .pick{
+      h2{
+        padding-bottom: 5%;
+      }
         p{
+            font-size: 1.1em;
             font-family: Helvetica;
+            line-height: 200%;
+
         }
+
+
     }
     .infoBlock{
         .icon-add-circle-1{color:#e85657;}
         .icon-button-power-2{color:#6b69d2;}
-        .icon-undo{color:#e85657;}  
-        .icon-remove-circle-1{color:#796357;} 
+        .icon-undo{color:#e85657;}
+        .icon-remove-circle-1{color:#796357;}
         .icon-map-direction{color:#6ca4d6;}
+
+        p{
+            font-family: Helvetica;
+            line-height: 200%;
+
+        }
+
     }
     .businessContainer{
-        background: @white;
+        background: @greyLight;
         padding-top: 8%;
         padding-bottom: 8%;
+        h1{
+          font-size: 2em;
+        }
         h2{
+            font-size: 1.75em;
             margin-top: 3%;
             color:#f4005c;
+
+            text-decoration: none;
+        border-bottom: 1px dotted transparent;
+        width: 0px;
+        transition: 0.5s ease;
+        white-space: nowrap;
+        height: 35px;
+
+
+            &:hover{
+              border-bottom: 1px dotted #f4005c;
+              width: 370px;
+            }
         }
+
     }
 }

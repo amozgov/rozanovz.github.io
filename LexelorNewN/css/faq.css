@@ -1,17 +1,21 @@
 .faqPage .leftMenu h3,
 .faqPage .leftMenu a {
   font-family: Helvetica;
+  font-size: 1.15em;
+  font-weight: 200;
 }
 .faqPage .leftMenu a {
-  color: #f4005c;
+  color: #f9276f;
 }
 .faqPage .leftMenu a:hover {
   text-decoration: none;
 }
 .faqPage .faqAns h1 {
-  font-size: 2.8em;
+  font-size: 2em;
 }
 .faqPage .faqAns p {
+  font-size: 1.1em;
   font-family: Helvetica;
-  font-size: 1.15em;
+  line-height: 210%;
+  font-weight: 500;
 }

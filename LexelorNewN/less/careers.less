@@ -2,15 +2,17 @@
 
 .careersPage{
     .beginning{
-        background: @white;
+        background: @greyLight;
         padding: 1%;
         h3{
-            margin-top: 7%;
+            margin-top: 4%;
             font-family: courierBold;
+            line-height: 125%;
         }
         p{
             font-family: Helvetica;
-            font-size: 1.05em;
+            font-size: 1.2em;
+            line-height: 150%;
         }
     }
     .pirate-container{
@@ -28,21 +30,36 @@
             }
         }
         .branchSales{
-            text-align: right;
+
             @media screen and (max-width:1024px){
                 text-align: left;
             }
         }
         .branchSales, .branchDeveloping{
             h2{
-                border-bottom: 1px solid darken(@greyLight, 10%);
+              font-size: 1.6em;
+                border-bottom: 1px dotted darken(#3E3C42, 10%);
                 padding-bottom: 1.5%;
-                margin-bottom: 8%; 
+                margin-bottom: 8%;
             }
         }
         h4{
             color: #f4005c;
+            text-decoration: none;
+            border-bottom: 1px dotted transparent;
+            width: 0px;
+            transition: 0.5s ease;
+            white-space: nowrap;
+            height: 20px;
+
+
+                &:hover{
+                  border-bottom: 1px dotted #f4005c;
+                  width: auto;
+                }
+
         }
+
         li{
             font-family: Helvetica;
             margin-bottom: 5%;

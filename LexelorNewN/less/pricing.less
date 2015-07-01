@@ -1,4 +1,8 @@
 @import "fonts-colors.less";
+@font-face  {
+  font-family: Helvetica;
+    src: url(../fonts/SF.otf);
+  }
 
 .pricingPage{
     #pricing{
@@ -18,43 +22,90 @@
         .green{
             color:#62d395;
         }
+        h5{
+          font-family: courierNew;
+          font-size:0.6em;
+          font-weight: 100;
+        }
+        h2{
+          font-family: courierNew;
+          font-size:1.35em;
+          line-weight:250%;
+          font-weight: 100;
+        }
     }
-    
+
+
+
     .fee{
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 80px;
+        background-color: @greyLight;
+        h2{
+          font-family: courierNew;
+          font-size:1.75em;
+          line-weight:200%;
+          font-weight: 100;
+        }
     }
+    .infoBlock{
+
+      h2{
+          margin-bottom: 5%;
+      }
+
+      h3{
+          font-family: courierBold;
+          margin-bottom: 5%;
+      }
+      p{
+          font-family: Helvetica;
+          line-height: 200%;
+      }
+
+    }
+
     .bigInfoBlock{
         margin-bottom: 5%;
         .icon-add-circle-1{color:#e85657;}
         .icon-check-circle-2{color:#8fd69c;}
         .icon-undo{color:#6b69d2;}
         .icon-remove-circle-1{color:#796357;}
-        
+
         h3{
-            font-family: courierBold;
+            font-family: courierNew;
             margin-bottom: 5%;
         }
         p{
             font-family: Helvetica;
+              line-height: 200%;
         }
         .rightBlock{
             background: #e6f2e8;
             padding: 40px;
             div{
                 margin: 20% 0;
-                width:100%;
-                border-bottom: 1px dotted @black;
+                width:20% ;
+
+                border-bottom: 2px dotted @black;
             }
         }
     }
     .more{
+      margin-top: 10% 0;
+      margin-bottom: 10% 0;
         .moreUnderline{
-            border-bottom: 1px dotted @black;
+
+          border-bottom: 1px dashed #ccc;
             h3{
-                font-size:1.4em;
+                font-family: Helvetica;
+                font-size:1.1em;
+                padding: 1em 0;
+            }
+            h2{
             }
         }
     }
-    
+
 }

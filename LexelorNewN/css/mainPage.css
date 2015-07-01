@@ -6,6 +6,10 @@
   font-family: courierBold;
   src: url(../fonts/courbd.otf);
 }
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/SF.otf);
+}
 /*Origin colors*/
 /*Icon coloros for mainPage*/
 .mainPage .iconThreeContent .iconThree {

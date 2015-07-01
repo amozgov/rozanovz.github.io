@@ -13,26 +13,58 @@
         h1{
             margin-bottom: 5%;
             font-size:3.5em;
+            font-weight: 100;
+            font-family: courierNew;
         }
         h4{
             font-family: courierNew;
         }
         .vZeroBtn{
             background:#ffde85;
+            font-family: courierBold;
+            font-size:1em;
+             margin-top: 5%;
+             color: #3E3C42;
+             border-radius: 0;
+             border: 1px solid @black;
+             padding: 2.0% 1.5%;
+   cursor: pointer;
+   text-decoration: none;
+  &:hover{
+    background: #ffe8aa;
+    border: 1px solid #ffe8aa;
+    .transition;
+    .transitionBg;
+
+
         }
+      }
+
         .notifiedBtn{
+          font-family: courierBold;
+          font-size:1em;
+           margin-top: 5%;
+           color: #3E3C42;
+           border-radius: 0;
+           border: 1px solid @black;
+           padding: 2.0% 1.5%;
+ cursor: pointer;
+ text-decoration: none;
             background: @white;
+            &:hover{
+              font-family: courierBold;
+              font-size:1em;
+               margin-top: 5%;
+                color:@white;
+                background: #3E3C42;
+                border: 1px solid #3E3C42;
+                .transition;
+                .transitionBg;
+         }
         }
-        .notifiedBtn,
-        .vZeroBtn{
-            margin-top: 5%;
-            color: @black;
-            border-radius: 0;
-            border: 1px solid @black;
-            padding: 1.5% 1.5%;
-        }
+
     }
-    
+
 }
 .info{
     .row{
@@ -50,10 +82,11 @@
         @media screen and (max-width:1024px){
             border:none;
             &:nth-child(2){
-                border-bottom:none;
+                border :1px dotted @black;
+
             }
             .infoBlock:not(:last-child){
-                border: none;
+                border:1px dotted @black;
             }
             .infoBlock{
                 margin-bottom: 5%;
