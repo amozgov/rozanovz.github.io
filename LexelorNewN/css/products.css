@@ -46,15 +46,16 @@
   font-size: 1.1em;
   color: #61D395;
   font-weight: 100;
-  border-bottom: 1px dotted transparent;
-  width: 0px;
-  transition: 0.5s ease;
-  white-space: nowrap;
-  height: 25px;
-}
-.productPage .headingPageProducts .versions h5:hover {
-  border-bottom: 1px dotted #61D395;
-  width: 90px;
+  /*      border-bottom: 1px dotted transparent;
+            width: 0px;
+            transition: 0.5s ease;
+            white-space: nowrap;
+            height: 25px;
+                &:hover{
+                  border-bottom: 1px dotted #61D395;
+                  width: 90px;
+
+                }*/
 }
 @media screen and (max-width: 1024px) {
   .productPage .headingPageProducts .versions {
